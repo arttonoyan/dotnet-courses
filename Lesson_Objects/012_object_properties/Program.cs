@@ -1,4 +1,4 @@
-﻿namespace _011_object_properties
+﻿namespace _012_object_properties
 {
     class Program
     {

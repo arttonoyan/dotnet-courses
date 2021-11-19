@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_object_properties", "Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_object_properties", "Lesson_Objects\011_object_properties\011_object_properties.csproj", "{2268DFB4-68C1-4128-ACDF-AD390791234C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_object_properties", "Lesson_Objects\012_object_properties\012_object_properties.csproj", "{07AF7345-B08D-4719-8A1E-414F47733098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{2268DFB4-68C1-4128-ACDF-AD390791234C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2268DFB4-68C1-4128-ACDF-AD390791234C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2268DFB4-68C1-4128-ACDF-AD390791234C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AF7345-B08D-4719-8A1E-414F47733098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AF7345-B08D-4719-8A1E-414F47733098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AF7345-B08D-4719-8A1E-414F47733098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AF7345-B08D-4719-8A1E-414F47733098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +99,7 @@ Global
 		{3F6C6107-F82F-4C13-AD73-CF81988F2DE6} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 		{2E5AF07F-0096-4F8D-AB82-F1BB3927CE97} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 		{2268DFB4-68C1-4128-ACDF-AD390791234C} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
+		{07AF7345-B08D-4719-8A1E-414F47733098} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
