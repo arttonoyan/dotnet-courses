@@ -6,7 +6,14 @@ namespace _007_object_readonly
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var st = new Student("a1@gmail.com")
+            {
+                age = 20,
+                name = "A1",
+                surname = "A1yan"
+            };
+
+            //st.email = "";
         }
     }
 }
