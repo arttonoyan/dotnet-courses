@@ -1,4 +1,4 @@
-﻿namespace _008_object_properties
+﻿namespace _009_object_properties
 {
     class Program
     {
@@ -8,11 +8,13 @@
             {
                 name = "A1",
                 surname = "A1yan",
-                //age = -25896
+                Age = -25896
             };
 
-            st.SetAge(-25896);
-            int age = st.GetAge();
+            st.Age = -25896;
+            int age = st.Age;
+            //st.SetAge(-25896);
+            //int age = st.GetAge();
 
         }
     }
