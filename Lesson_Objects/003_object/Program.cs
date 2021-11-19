@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace _003_object
+﻿namespace _003_object
 {
     class Program
     {
