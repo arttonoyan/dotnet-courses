@@ -7,27 +7,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Objects", "Lesson_Ob
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_object", "Lesson_Objects\001_object\001_object.csproj", "{B2338018-DEB2-4902-8F5A-45AEFA16CCEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_object", "Lesson_Objects\002_object\002_object.csproj", "{0D89D70C-D38F-4A06-B08B-E97F244F5461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_object", "Lesson_Objects\002_object\002_object.csproj", "{0D89D70C-D38F-4A06-B08B-E97F244F5461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_object", "Lesson_Objects\003_object\003_object.csproj", "{508775E3-5D9E-4C44-9CBC-A387F5B489B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_object", "Lesson_Objects\003_object\003_object.csproj", "{508775E3-5D9E-4C44-9CBC-A387F5B489B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_object", "Lesson_Objects\004_object\004_object.csproj", "{2C0BBC21-4B5D-4C79-88D6-E825C7718FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_object", "Lesson_Objects\004_object\004_object.csproj", "{2C0BBC21-4B5D-4C79-88D6-E825C7718FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_object", "Lesson_Objects\005_object\005_object.csproj", "{7FCD21C9-AC04-4698-A2CD-EC566C16DB86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_object", "Lesson_Objects\005_object\005_object.csproj", "{7FCD21C9-AC04-4698-A2CD-EC566C16DB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_object", "Lesson_Objects\006_object\006_object.csproj", "{6C9B66FE-B8F9-4968-AB76-554528A5EDE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_object", "Lesson_Objects\006_object\006_object.csproj", "{6C9B66FE-B8F9-4968-AB76-554528A5EDE0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_object_readonly", "Lesson_Objects\007_object_readonly\007_object_readonly.csproj", "{1355AAFF-9D56-4C6F-8ED6-6E6BF214D39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_object_properties", "Lesson_Objects\008_object_properties\008_object_properties.csproj", "{3433279B-7466-4051-8C21-04EF882D985C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_object_properties", "Lesson_Objects\008_object_properties\008_object_properties.csproj", "{3433279B-7466-4051-8C21-04EF882D985C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_object_properties", "Lesson_Objects\009_object_properties\009_object_properties.csproj", "{3F6C6107-F82F-4C13-AD73-CF81988F2DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_object_properties", "Lesson_Objects\009_object_properties\009_object_properties.csproj", "{3F6C6107-F82F-4C13-AD73-CF81988F2DE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_object_properties", "Lesson_Objects\010_object_properties\010_object_properties.csproj", "{2E5AF07F-0096-4F8D-AB82-F1BB3927CE97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010_object_properties", "Lesson_Objects\010_object_properties\010_object_properties.csproj", "{2E5AF07F-0096-4F8D-AB82-F1BB3927CE97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_object_properties", "Lesson_Objects\011_object_properties\011_object_properties.csproj", "{2268DFB4-68C1-4128-ACDF-AD390791234C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_object_properties", "Lesson_Objects\011_object_properties\011_object_properties.csproj", "{2268DFB4-68C1-4128-ACDF-AD390791234C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_object_properties", "Lesson_Objects\012_object_properties\012_object_properties.csproj", "{07AF7345-B08D-4719-8A1E-414F47733098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012_object_properties", "Lesson_Objects\012_object_properties\012_object_properties.csproj", "{07AF7345-B08D-4719-8A1E-414F47733098}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "013_object_HashCode", "Lesson_Objects\013_object_HashCode\013_object_HashCode.csproj", "{A6CD7FD4-650B-4956-B360-1108D8FB0818}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "014_object_HashCode", "Lesson_Objects\014_object_HashCode\014_object_HashCode.csproj", "{219E0A1E-0C19-42E9-9D78-43AC0F7A169A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "015_object_Equatable", "Lesson_Objects\015_object_Equatable\015_object_Equatable.csproj", "{E46DAA54-318A-40CF-902D-7564C6DA60FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016_object_MemberwiseClone", "Lesson_Objects\016_object_MemberwiseClone\016_object_MemberwiseClone.csproj", "{5009FA1A-2904-4114-8A95-A0ADD73CA2DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +91,22 @@ Global
 		{07AF7345-B08D-4719-8A1E-414F47733098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07AF7345-B08D-4719-8A1E-414F47733098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07AF7345-B08D-4719-8A1E-414F47733098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CD7FD4-650B-4956-B360-1108D8FB0818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CD7FD4-650B-4956-B360-1108D8FB0818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CD7FD4-650B-4956-B360-1108D8FB0818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CD7FD4-650B-4956-B360-1108D8FB0818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219E0A1E-0C19-42E9-9D78-43AC0F7A169A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219E0A1E-0C19-42E9-9D78-43AC0F7A169A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219E0A1E-0C19-42E9-9D78-43AC0F7A169A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219E0A1E-0C19-42E9-9D78-43AC0F7A169A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46DAA54-318A-40CF-902D-7564C6DA60FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46DAA54-318A-40CF-902D-7564C6DA60FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46DAA54-318A-40CF-902D-7564C6DA60FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46DAA54-318A-40CF-902D-7564C6DA60FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5009FA1A-2904-4114-8A95-A0ADD73CA2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5009FA1A-2904-4114-8A95-A0ADD73CA2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5009FA1A-2904-4114-8A95-A0ADD73CA2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5009FA1A-2904-4114-8A95-A0ADD73CA2DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +124,10 @@ Global
 		{2E5AF07F-0096-4F8D-AB82-F1BB3927CE97} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 		{2268DFB4-68C1-4128-ACDF-AD390791234C} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 		{07AF7345-B08D-4719-8A1E-414F47733098} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
+		{A6CD7FD4-650B-4956-B360-1108D8FB0818} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
+		{219E0A1E-0C19-42E9-9D78-43AC0F7A169A} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
+		{E46DAA54-318A-40CF-902D-7564C6DA60FB} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
+		{5009FA1A-2904-4114-8A95-A0ADD73CA2DC} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
