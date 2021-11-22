@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "014_object_HashCode", "Less
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015_object_Equatable", "Lesson_Objects\015_object_Equatable\015_object_Equatable.csproj", "{85EF1413-4C2B-45B7-8E00-FADE57EA4113}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016_object_MemberwiseClone", "Lesson_Objects\016_object_MemberwiseClone\016_object_MemberwiseClone.csproj", "{80CAED00-3335-41F1-BC7F-4C2EA9D22AB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{85EF1413-4C2B-45B7-8E00-FADE57EA4113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85EF1413-4C2B-45B7-8E00-FADE57EA4113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85EF1413-4C2B-45B7-8E00-FADE57EA4113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CAED00-3335-41F1-BC7F-4C2EA9D22AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CAED00-3335-41F1-BC7F-4C2EA9D22AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CAED00-3335-41F1-BC7F-4C2EA9D22AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CAED00-3335-41F1-BC7F-4C2EA9D22AB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
