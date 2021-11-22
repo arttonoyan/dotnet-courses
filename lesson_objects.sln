@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_object_properties", "Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012_object_properties", "Lesson_Objects\012_object_properties\012_object_properties.csproj", "{07AF7345-B08D-4719-8A1E-414F47733098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013_object_HashCode", "Lesson_Objects\013_object_HashCode\013_object_HashCode.csproj", "{353BC958-A408-4BC0-9348-32B2060846BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "013_object_HashCode", "Lesson_Objects\013_object_HashCode\013_object_HashCode.csproj", "{353BC958-A408-4BC0-9348-32B2060846BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014_object_HashCode", "Lesson_Objects\014_object_HashCode\014_object_HashCode.csproj", "{FD01DC6C-EECC-4257-B402-43D7BBACD57E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "014_object_HashCode", "Lesson_Objects\014_object_HashCode\014_object_HashCode.csproj", "{FD01DC6C-EECC-4257-B402-43D7BBACD57E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015_object_Equatable", "Lesson_Objects\015_object_Equatable\015_object_Equatable.csproj", "{85EF1413-4C2B-45B7-8E00-FADE57EA4113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{FD01DC6C-EECC-4257-B402-43D7BBACD57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD01DC6C-EECC-4257-B402-43D7BBACD57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD01DC6C-EECC-4257-B402-43D7BBACD57E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85EF1413-4C2B-45B7-8E00-FADE57EA4113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85EF1413-4C2B-45B7-8E00-FADE57EA4113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85EF1413-4C2B-45B7-8E00-FADE57EA4113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85EF1413-4C2B-45B7-8E00-FADE57EA4113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
