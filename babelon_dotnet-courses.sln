@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "015_object_Equatable", "Les
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016_object_MemberwiseClone", "Lesson_Objects\016_object_MemberwiseClone\016_object_MemberwiseClone.csproj", "{5009FA1A-2904-4114-8A95-A0ADD73CA2DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Inheritance", "Lesson_Inheritance", "{094FE2C1-828B-43C6-94C2-FC48E47210B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
