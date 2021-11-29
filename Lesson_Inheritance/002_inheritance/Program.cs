@@ -36,9 +36,10 @@ namespace _002_inheritance
             Console.WriteLine(model.FullName);
             //if (model is Student)
             //{
-            //    Student st = (Student)model;
-            //    Console.WriteLine($"Course: {st.course}");
+            //    Student st1 = (Student)model;
+            //    Console.WriteLine($"Course: {st1.Course}");
             //}
+            
             Student st = model as Student;
             if (st != null)
                 Console.WriteLine($"Course: {st.Course}");
