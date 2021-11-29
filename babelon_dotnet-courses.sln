@@ -39,9 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016_object_MemberwiseClone"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Inheritance", "Lesson_Inheritance", "{094FE2C1-828B-43C6-94C2-FC48E47210B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_inheritance", "Lesson_Inheritance\001_inheritance\001_inheritance.csproj", "{4FC4D6CF-2E94-4E2D-BAD2-6779267D7382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_inheritance", "Lesson_Inheritance\001_inheritance\001_inheritance.csproj", "{4FC4D6CF-2E94-4E2D-BAD2-6779267D7382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_inheritance", "Lesson_Inheritance\002_inheritance\002_inheritance.csproj", "{8181CF86-5E41-49FD-BCBC-88E2EBFA3B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_inheritance", "Lesson_Inheritance\002_inheritance\002_inheritance.csproj", "{8181CF86-5E41-49FD-BCBC-88E2EBFA3B16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Nested", "Lesson_Nested", "{F1F0F3B4-9525-48E6-BC4C-DDF36802EE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101_Nested", "Lesson_Nested\101_Nested\101_Nested.csproj", "{E5BF8A92-D90A-4646-A8B2-30E7C73C8863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +125,10 @@ Global
 		{8181CF86-5E41-49FD-BCBC-88E2EBFA3B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8181CF86-5E41-49FD-BCBC-88E2EBFA3B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8181CF86-5E41-49FD-BCBC-88E2EBFA3B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BF8A92-D90A-4646-A8B2-30E7C73C8863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BF8A92-D90A-4646-A8B2-30E7C73C8863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BF8A92-D90A-4646-A8B2-30E7C73C8863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BF8A92-D90A-4646-A8B2-30E7C73C8863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +152,7 @@ Global
 		{5009FA1A-2904-4114-8A95-A0ADD73CA2DC} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 		{4FC4D6CF-2E94-4E2D-BAD2-6779267D7382} = {094FE2C1-828B-43C6-94C2-FC48E47210B9}
 		{8181CF86-5E41-49FD-BCBC-88E2EBFA3B16} = {094FE2C1-828B-43C6-94C2-FC48E47210B9}
+		{E5BF8A92-D90A-4646-A8B2-30E7C73C8863} = {F1F0F3B4-9525-48E6-BC4C-DDF36802EE88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
