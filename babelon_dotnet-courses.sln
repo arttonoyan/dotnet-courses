@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Nested", "Lesson_Nested
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Nested", "Lesson_Nested\003_Nested\003_Nested.csproj", "{01A51BE1-F2AF-4193-AE9D-549BE994D1BB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_Nested", "Lesson_Nested\004_Nested\004_Nested.csproj", "{F71C5056-47BB-4689-B43E-34274AE140B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{01A51BE1-F2AF-4193-AE9D-549BE994D1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01A51BE1-F2AF-4193-AE9D-549BE994D1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01A51BE1-F2AF-4193-AE9D-549BE994D1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71C5056-47BB-4689-B43E-34274AE140B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71C5056-47BB-4689-B43E-34274AE140B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71C5056-47BB-4689-B43E-34274AE140B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71C5056-47BB-4689-B43E-34274AE140B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{BC432D7F-52B9-4B6D-B519-8B97E3EBA814} = {F1F0F3B4-9525-48E6-BC4C-DDF36802EE88}
 		{74AAD0CC-C007-42EC-B5CC-22904181AE61} = {F1F0F3B4-9525-48E6-BC4C-DDF36802EE88}
 		{01A51BE1-F2AF-4193-AE9D-549BE994D1BB} = {F1F0F3B4-9525-48E6-BC4C-DDF36802EE88}
+		{F71C5056-47BB-4689-B43E-34274AE140B1} = {F1F0F3B4-9525-48E6-BC4C-DDF36802EE88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
