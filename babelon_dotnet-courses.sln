@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_struct_point", "Lesson_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_struct_boxing", "Lesson_Structure\008_struct_boxing\008_struct_boxing.csproj", "{A3999CD3-5DB7-4068-877B-6924A6671F7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_struct_boxing", "Lesson_Structure\009_struct_boxing\009_struct_boxing.csproj", "{1EE495BD-196A-4531-BB20-90EEE81215E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{A3999CD3-5DB7-4068-877B-6924A6671F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3999CD3-5DB7-4068-877B-6924A6671F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3999CD3-5DB7-4068-877B-6924A6671F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE495BD-196A-4531-BB20-90EEE81215E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE495BD-196A-4531-BB20-90EEE81215E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE495BD-196A-4531-BB20-90EEE81215E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE495BD-196A-4531-BB20-90EEE81215E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +245,7 @@ Global
 		{70771307-47C0-4B33-AE78-9BB4CBFD2B0E} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
 		{50B91382-FAD3-4502-922A-4B18C8C3F5A5} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
 		{A3999CD3-5DB7-4068-877B-6924A6671F7B} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
+		{1EE495BD-196A-4531-BB20-90EEE81215E3} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
