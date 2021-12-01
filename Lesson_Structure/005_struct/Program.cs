@@ -22,5 +22,4 @@ namespace _005_struct
             Console.WriteLine(field);
         }
     }
-
 }
