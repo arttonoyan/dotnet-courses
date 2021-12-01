@@ -6,30 +6,20 @@ namespace _004_struct
     {
         static void Main(string[] args)
         {
-            //MyStruct ms = new MyStruct();
-            var ms = new MyStruct(10);
-            //ms.field = 10;
-            Console.WriteLine(ms.field); // Can Use.
-
-            Console.ReadLine();
 
         }
     }
 
-    struct MyStruct
+    struct MyStruct //: MyStruct1 // : MyClass
     {
-        // Can't use default constructor.
-        //public MyStruct()
-        //{ }
-
-        public MyStruct(int value)
-        {
-            this.field = value; // Can't add comment
-            field1 = 0;
-        }
-
         public int field;
-        public int field1;
     }
 
+    struct MyStruct1
+    {
+        public int field;
+    }
+
+    class MyClass
+    { }
 }
