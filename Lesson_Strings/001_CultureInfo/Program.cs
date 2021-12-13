@@ -4,6 +4,7 @@ using System.Globalization;
 namespace _001_CultureInfo
 {
     // CultureInfo Class
+    //https://community.inriver.com/hc/en-us/community/posts/360010064099-List-of-country-codes-Windows-Language-Culture-Names
     // https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo?redirectedfrom=MSDN&view=net-6.0
 
     // Standard Date and Time Format Strings
@@ -35,8 +36,8 @@ namespace _001_CultureInfo
             //};
 
             //string cn = "hy-AM";
-            //var armCultureInfo = new CultureInfo(specificCultures[0]);
-            //string info = DateTime.Now.ToString("D", armCultureInfo.DateTimeFormat);
+            var armCultureInfo = new CultureInfo("ru-RU");
+            string info = DateTime.Now.ToString("D", armCultureInfo.DateTimeFormat);
             //string info1 = string.Format("{0} {1}", armCultureInfo.NumberFormat.CurrencySymbol, 235.6);
             //string info2 = 235.6.ToString("C", armCultureInfo);
 
