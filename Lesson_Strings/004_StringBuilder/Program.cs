@@ -14,7 +14,7 @@ namespace _004_StringBuilder
 
             for (int i = 0; i < count; i++)
             {
-                simpleString += "a";
+                simpleString += "a" + i;
             }
 
             TimeSpan timeSS = DateTime.Now - time;
@@ -27,7 +27,7 @@ namespace _004_StringBuilder
 
             for (int i = 0; i < count; i++)
             {
-                builder.Append("a");
+                builder.Append("a").Append(i);
             }
 
             TimeSpan timeSB = DateTime.Now - time;
@@ -36,9 +36,9 @@ namespace _004_StringBuilder
 
             Console.WriteLine("Common string length: {0}", simpleString.Length);
 
-            simpleString = builder.ToString();
+            var builderString = builder.ToString();
 
-            Console.WriteLine("StringBuilder length: {0}", simpleString.Length);
+            Console.WriteLine("StringBuilder length: {0}", builderString.Length);
 
             //Delay.
             Console.ReadKey();
