@@ -6,7 +6,7 @@ namespace _001_object
     {
         static void Main(string[] args)
         {
-            Student st1 = new Student();
+            Student st1 = new();
 
             string text = st1.ToString();
             int[] arr = new int[10];
