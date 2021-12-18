@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 
 namespace _011_Yield_DataRepository
 {
     public interface IDataRepository
     {
-        IEnumerable<TModel> ExecuteAsEnumerable<TModel>(string query, 
-            Func<IDataRecord, TModel> convertFunc) 
-            where TModel : class, new();
+        IEnumerable<IDataRecord> GetExecuter(string query);
     }
 
     class DataRepository : IDataRepository
@@ -21,8 +20,7 @@ namespace _011_Yield_DataRepository
 
         private readonly string _connectionString;
 
-        public IEnumerable<TModel> ExecuteAsEnumerable<TModel>(string query, Func<IDataRecord, TModel> mapper)
-            where TModel : class, new()
+        public IEnumerable<IDataRecord> GetExecuter(string query)
         {
             using var conn = new SqlConnection(_connectionString);
             if (conn.State != ConnectionState.Open)
@@ -34,23 +32,7 @@ namespace _011_Yield_DataRepository
             var reader = comand.ExecuteReader();
 
             while (reader.Read())
-                yield return mapper.Invoke(reader);
-
-            //TModel model;
-            //while (reader.Read())
-            //{
-            //    try
-            //    {
-            //        model = mapper.Invoke(reader);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        //log
-            //        continue;
-            //    }
-
-            //    yield return model;
-            //}
+                yield return reader;
         }
     }
 }
