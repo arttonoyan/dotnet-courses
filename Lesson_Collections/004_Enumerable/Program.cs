@@ -21,7 +21,7 @@ namespace _004_Enumerable
 
             #region Compiler Code Generation
 
-            //IEnumerator enumerator = rootNode.GetEnumerator();
+            //var enumerator = rootNode.GetEnumerator();
             //try
             //{
             //    while (enumerator.MoveNext())
@@ -60,28 +60,30 @@ namespace _004_Enumerable
             return _last;
         }
 
-        public override string ToString() => $"{value}, next: {next?.value}";
-
         public IEnumerator GetEnumerator()
         {
             return new Enumerator(this);
         }
 
+        public override string ToString() => $"{value}, next: {next?.value}";
+
+        
+
         private class Enumerator : IEnumerator
         {
+            private ListNode _node;
             public Enumerator(ListNode root)
             {
                 _node = root;
             }
 
             public object Current { get; private set; }
-            private ListNode _node;
 
             public bool MoveNext()
             {
                 if (_node == null)
                     return false;
-                _node = null;
+
                 Current = _node.value;
                 _node = _node.next;
                 return true;
