@@ -7,8 +7,7 @@ namespace _011_Yield_DataRepository
 {
     public static class DataRepositoryExtensions
     {
-        public static IEnumerable<TModel> GetExecuter<TModel>(this IDataRepository repository, string query,
-            Func<IDataRecord, TModel> mapper)
+        public static IEnumerable<TModel> GetExecuter<TModel>(this IDataRepository repository, string query, Func<IDataRecord, TModel> mapper)
             where TModel : class, new()
             => repository.GetExecuter(query).Select(mapper);
     }
