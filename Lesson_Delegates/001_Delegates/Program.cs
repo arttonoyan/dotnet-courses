@@ -6,15 +6,15 @@ namespace _001_Delegates
     {
         static void Main(string[] args)
         {
-            var myClass = new MyClass();
+            var myClass = new MyClass { Id = 1003 };
 
-            var myAction = new MyAction(new MyClass().Method1);
+            var myAction = new MyAction(myClass.Method1);
             var myAction1 = new MyAction(myClass.Method2);
 
             myAction1.Invoke();
             //myAction.Invoke();
 
-            //myAction();
+            myAction();
 
             Console.ReadLine();
         }

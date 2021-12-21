@@ -4,6 +4,8 @@ namespace _001_Delegates
 {
     public class MyClass
     {
+        public int Id { get; set; }
+
         public void Method1()
         {
             Console.WriteLine("Call Method1");
