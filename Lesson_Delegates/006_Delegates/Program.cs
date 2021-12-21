@@ -35,6 +35,8 @@ namespace _006_Delegates
 
             // Lambda Expression
             action = (a, b) => a + b;
+
+            //action = new MyAction(delegate (int a, int b) { return a + b; });
             Console.WriteLine("Lambda Expression: 10 + 5 = " + action(10, 5));
 
             // Difference betweens "Lambda Operator" and "Lambda Expression"
