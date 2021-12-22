@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_AnonymousType", "Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_AnonymousType", "Lesson_Linq\003_AnonymousType\003_AnonymousType.csproj", "{7AE1C9D9-E691-43CA-9A64-AA64F291F74C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_ValueTuples", "Lesson_Linq\004_ValueTuples\004_ValueTuples.csproj", "{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -533,6 +535,10 @@ Global
 		{7AE1C9D9-E691-43CA-9A64-AA64F291F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AE1C9D9-E691-43CA-9A64-AA64F291F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AE1C9D9-E691-43CA-9A64-AA64F291F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -622,6 +628,7 @@ Global
 		{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
 		{16A4DC1B-0B1F-4C53-A6E6-3372C87F8F7E} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
 		{7AE1C9D9-E691-43CA-9A64-AA64F291F74C} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
+		{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
