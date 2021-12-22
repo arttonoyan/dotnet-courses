@@ -161,23 +161,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012_yield", "Lesson_Collect
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Delegates", "Lesson_Delegates", "{5417B4CB-4798-4F6C-86E6-F644B2007E44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Delegates", "Lesson_Delegates\001_Delegates\001_Delegates.csproj", "{B2C59076-0E04-4F50-9A52-2BA98014BF63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Delegates", "Lesson_Delegates\001_Delegates\001_Delegates.csproj", "{B2C59076-0E04-4F50-9A52-2BA98014BF63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Delegates", "Lesson_Delegates\002_Delegates\002_Delegates.csproj", "{9FBBACAD-7DED-4D05-99FD-298DDFF57A94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Delegates", "Lesson_Delegates\002_Delegates\002_Delegates.csproj", "{9FBBACAD-7DED-4D05-99FD-298DDFF57A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Delegates", "Lesson_Delegates\003_Delegates\003_Delegates.csproj", "{3F2FB895-F209-4579-954A-AAF60F5B1145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Delegates", "Lesson_Delegates\003_Delegates\003_Delegates.csproj", "{3F2FB895-F209-4579-954A-AAF60F5B1145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_Delegates", "Lesson_Delegates\004_Delegates\004_Delegates.csproj", "{6C6D5570-4A20-4B7B-AAD5-C5F363DE7C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_Delegates", "Lesson_Delegates\004_Delegates\004_Delegates.csproj", "{6C6D5570-4A20-4B7B-AAD5-C5F363DE7C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Delegates", "Lesson_Delegates\005_Delegates\005_Delegates.csproj", "{D3213582-EFAD-4B7B-BAF8-E140BCBF7CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_Delegates", "Lesson_Delegates\005_Delegates\005_Delegates.csproj", "{D3213582-EFAD-4B7B-BAF8-E140BCBF7CE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Delegates", "Lesson_Delegates\006_Delegates\006_Delegates.csproj", "{39B2AF9F-6502-4655-8BBC-02FB9502441A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_Delegates", "Lesson_Delegates\006_Delegates\006_Delegates.csproj", "{39B2AF9F-6502-4655-8BBC-02FB9502441A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Delegates", "Lesson_Delegates\007_Delegates\007_Delegates.csproj", "{3B1E92FA-D21E-4E3A-B5B9-335A1C474E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_Delegates", "Lesson_Delegates\007_Delegates\007_Delegates.csproj", "{3B1E92FA-D21E-4E3A-B5B9-335A1C474E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Delegates_Func", "Lesson_Delegates\009_Delegates_Func\009_Delegates_Func.csproj", "{BA7706B0-1A84-4572-B48C-89B8F8D5726F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_Delegates_Func", "Lesson_Delegates\009_Delegates_Func\009_Delegates_Func.csproj", "{BA7706B0-1A84-4572-B48C-89B8F8D5726F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_Delegates_Func", "Lesson_Delegates\008_Delegates_Func\008_Delegates_Func.csproj", "{9D045D49-8B37-41D5-99F8-A6026B63C1FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010_Delegates_Lazy", "Lesson_Delegates\010_Delegates_Lazy\010_Delegates_Lazy.csproj", "{350C5DB7-B278-4D80-8F52-F98C042D26AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_Delegates_Lazy", "Lesson_Delegates\011_Delegates_Lazy\011_Delegates_Lazy.csproj", "{7B5159FF-AA19-4BD8-B1F2-38F6DADED2E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Linq", "Lesson_Linq", "{A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Linq", "Lesson_Linq\001_Linq\001_Linq.csproj", "{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -501,6 +509,18 @@ Global
 		{9D045D49-8B37-41D5-99F8-A6026B63C1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D045D49-8B37-41D5-99F8-A6026B63C1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D045D49-8B37-41D5-99F8-A6026B63C1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{350C5DB7-B278-4D80-8F52-F98C042D26AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350C5DB7-B278-4D80-8F52-F98C042D26AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350C5DB7-B278-4D80-8F52-F98C042D26AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350C5DB7-B278-4D80-8F52-F98C042D26AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5159FF-AA19-4BD8-B1F2-38F6DADED2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5159FF-AA19-4BD8-B1F2-38F6DADED2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5159FF-AA19-4BD8-B1F2-38F6DADED2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5159FF-AA19-4BD8-B1F2-38F6DADED2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -585,6 +605,9 @@ Global
 		{3B1E92FA-D21E-4E3A-B5B9-335A1C474E38} = {5417B4CB-4798-4F6C-86E6-F644B2007E44}
 		{BA7706B0-1A84-4572-B48C-89B8F8D5726F} = {5417B4CB-4798-4F6C-86E6-F644B2007E44}
 		{9D045D49-8B37-41D5-99F8-A6026B63C1FA} = {5417B4CB-4798-4F6C-86E6-F644B2007E44}
+		{350C5DB7-B278-4D80-8F52-F98C042D26AA} = {5417B4CB-4798-4F6C-86E6-F644B2007E44}
+		{7B5159FF-AA19-4BD8-B1F2-38F6DADED2E8} = {5417B4CB-4798-4F6C-86E6-F644B2007E44}
+		{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
