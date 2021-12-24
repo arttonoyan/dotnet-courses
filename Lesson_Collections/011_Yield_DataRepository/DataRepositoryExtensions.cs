@@ -16,7 +16,9 @@ namespace _011_Yield_DataRepository
 
         public static IAsyncEnumerable<TModel> GetAsyncExecuter<TModel>(this IDataRepository repository, string query, Func<IDataRecord, TModel> mapper, CancellationToken cancellationToken = default)
             where TModel : class, new()
-            => repository.GetAsyncExecuter(query).SelectAsync(mapper, cancellationToken);
+            => repository
+                .GetAsyncExecuter(query)
+                .SelectAsync(mapper, cancellationToken);
 
         public static async IAsyncEnumerable<TResult> SelectAsync<TSource, TResult>(this IAsyncEnumerable<TSource> source, Func<TSource, TResult> selector, [EnumeratorCancellation] CancellationToken cancellationToken = default)
         {
