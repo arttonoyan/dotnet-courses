@@ -9,8 +9,14 @@ namespace _001_Linq
         static void Main(string[] args)
         {
             var studens = GenerateStudentsData(10).ToList();
-            var res1 = studens.MyFind(p => p.age > 20);
-            var res2 = studens.MyTake(20).ToList();
+
+            Dictionary<University, List<Student>> res = studens
+                .GroupBy(p => p.university)
+                .ToDictionary(p => p.Key, p => p
+                    .OrderByDescending(p1 => p1.mark)
+                    .Take(7)
+                    .OrderBy(p => p.Fullname)
+                    .ToList());
         }
 
         static IEnumerable<Student> GenerateStudentsData(int count)
@@ -32,6 +38,16 @@ namespace _001_Linq
 
     internal static class Ex
     {
+        public static bool IsnUllOrEmpty<T>(this IEnumerable<T> source)
+        {
+            return source == null || source.Any();
+        }
+
+        public static bool IsnUllOrEmpty<T>(this ICollection<T> source)
+        {
+            return source == null || source.Count == 0;
+        }
+
         public static IEnumerable<T> MyFind<T>(this IEnumerable<T> source, Func<T, bool> predicate)
         {
             foreach (var item in source)
@@ -39,6 +55,23 @@ namespace _001_Linq
                 if (predicate.Invoke(item))
                     yield return item;
             }
+        }
+
+        public static bool MyAny<T>(this IEnumerable<T> source)
+        {
+            foreach (var item in source)
+                return true;
+            return false;
+        }
+
+        public static bool MyAny<T>(this IEnumerable<T> source, Func<T, bool> predicate)
+        {
+            foreach (var item in source)
+            {
+                if(predicate.Invoke(item))
+                    return true;
+            }
+            return false;
         }
 
         public static IEnumerable<T> MyTake<T>(this IEnumerable<T> source, int count)
