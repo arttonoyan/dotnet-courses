@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _003_AnonymousType
 {
@@ -18,7 +19,7 @@ namespace _003_AnonymousType
             }
 
             var o3 = o1;
-            if (ReferenceEquals(o1, o3))
+            if (ReferenceEquals(o1, o2))
             {
 
             }
