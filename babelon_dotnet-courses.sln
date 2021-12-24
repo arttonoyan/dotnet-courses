@@ -185,15 +185,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_Delegates_Lazy", "Lesso
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Linq", "Lesson_Linq", "{A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Linq", "Lesson_Linq\001_Linq\001_Linq.csproj", "{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Linq", "Lesson_Linq\001_Linq\001_Linq.csproj", "{FE3E3B8B-79B8-4CF8-B89C-465C01EF3B6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_AnonymousType", "Lesson_Linq\002_AnonymousType\002_AnonymousType.csproj", "{16A4DC1B-0B1F-4C53-A6E6-3372C87F8F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_AnonymousType", "Lesson_Linq\002_AnonymousType\002_AnonymousType.csproj", "{16A4DC1B-0B1F-4C53-A6E6-3372C87F8F7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_AnonymousType", "Lesson_Linq\003_AnonymousType\003_AnonymousType.csproj", "{7AE1C9D9-E691-43CA-9A64-AA64F291F74C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_AnonymousType", "Lesson_Linq\003_AnonymousType\003_AnonymousType.csproj", "{7AE1C9D9-E691-43CA-9A64-AA64F291F74C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_ValueTuples", "Lesson_Linq\004_ValueTuples\004_ValueTuples.csproj", "{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Linq_Referencesource", "Lesson_Linq\005_Linq_Referencesource\005_Linq_Referencesource.csproj", "{3DD16D09-9C5D-4BDA-B34C-866B94673575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_Linq_Referencesource", "Lesson_Linq\005_Linq_Referencesource\005_Linq_Referencesource.csproj", "{3DD16D09-9C5D-4BDA-B34C-866B94673575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Reflection", "Lesson_Reflection", "{B0EB38E7-0553-4A4C-B178-ECAF2D3F3DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Type", "Lesson_Reflection\001_Type\001_Type.csproj", "{63862255-B342-4FE1-9E37-87052FF8B182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -545,6 +549,10 @@ Global
 		{3DD16D09-9C5D-4BDA-B34C-866B94673575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD16D09-9C5D-4BDA-B34C-866B94673575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD16D09-9C5D-4BDA-B34C-866B94673575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63862255-B342-4FE1-9E37-87052FF8B182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63862255-B342-4FE1-9E37-87052FF8B182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63862255-B342-4FE1-9E37-87052FF8B182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63862255-B342-4FE1-9E37-87052FF8B182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -636,6 +644,7 @@ Global
 		{7AE1C9D9-E691-43CA-9A64-AA64F291F74C} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
 		{7C5BBC55-CD8B-45D7-BF3C-0883E155BAEF} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
 		{3DD16D09-9C5D-4BDA-B34C-866B94673575} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
+		{63862255-B342-4FE1-9E37-87052FF8B182} = {B0EB38E7-0553-4A4C-B178-ECAF2D3F3DD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
