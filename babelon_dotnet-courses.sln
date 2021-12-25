@@ -197,9 +197,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_Linq_Referencesource", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Reflection", "Lesson_Reflection", "{B0EB38E7-0553-4A4C-B178-ECAF2D3F3DD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Type", "Lesson_Reflection\001_Type\001_Type.csproj", "{63862255-B342-4FE1-9E37-87052FF8B182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Type", "Lesson_Reflection\001_Type\001_Type.csproj", "{63862255-B342-4FE1-9E37-87052FF8B182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Reflection", "Lesson_Reflection\002_Reflection\002_Reflection.csproj", "{9ED50839-F7E2-4311-B790-08FAED28B1A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Reflection", "Lesson_Reflection\002_Reflection\002_Reflection.csproj", "{9ED50839-F7E2-4311-B790-08FAED28B1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Reflection_Xml", "Lesson_Reflection\003_Reflection_Xml\003_Reflection_Xml.csproj", "{365CF492-3A9D-4CD8-813C-1B36F5BA55CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -559,6 +561,10 @@ Global
 		{9ED50839-F7E2-4311-B790-08FAED28B1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ED50839-F7E2-4311-B790-08FAED28B1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ED50839-F7E2-4311-B790-08FAED28B1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365CF492-3A9D-4CD8-813C-1B36F5BA55CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365CF492-3A9D-4CD8-813C-1B36F5BA55CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365CF492-3A9D-4CD8-813C-1B36F5BA55CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365CF492-3A9D-4CD8-813C-1B36F5BA55CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -652,6 +658,7 @@ Global
 		{3DD16D09-9C5D-4BDA-B34C-866B94673575} = {A9B7E7F4-5C43-403E-A3EF-3745F226E1BF}
 		{63862255-B342-4FE1-9E37-87052FF8B182} = {B0EB38E7-0553-4A4C-B178-ECAF2D3F3DD5}
 		{9ED50839-F7E2-4311-B790-08FAED28B1A7} = {B0EB38E7-0553-4A4C-B178-ECAF2D3F3DD5}
+		{365CF492-3A9D-4CD8-813C-1B36F5BA55CC} = {B0EB38E7-0553-4A4C-B178-ECAF2D3F3DD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
