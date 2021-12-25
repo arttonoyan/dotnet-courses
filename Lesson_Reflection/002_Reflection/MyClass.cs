@@ -11,7 +11,7 @@ namespace _002_Reflection
         // Fields.
         // 
         public int myint;
-        private string mystring = "Hello";
+        private readonly string mystring = "Hello";
 
         // Constructors.
         public MyClass() { }

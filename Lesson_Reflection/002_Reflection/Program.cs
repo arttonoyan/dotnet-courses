@@ -31,7 +31,7 @@ namespace _002_Reflection
 
             // Call private method
             MethodInfo methodC = type.GetMethod("Method3", BindingFlags.Instance | BindingFlags.NonPublic);
-            methodC.Invoke(myClass, new object[] { "Hello", " world!" });
+            methodC.Invoke(myClass, new [] { "Hello", " world!" });
 
             // Change private value
             FieldInfo mystring = type.GetField("mystring", BindingFlags.Instance | BindingFlags.NonPublic);
@@ -63,10 +63,12 @@ namespace _002_Reflection
             Console.WriteLine(new string('_', 30) + " Class1 methods" + "\n");
 
             Type t = cl.GetType();
-            MethodInfo[] mi = t.GetMethods(BindingFlags.Instance
-                    | BindingFlags.Static
-                    | BindingFlags.Public
-                    | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
+            MethodInfo[] mi = t.GetMethods(
+                BindingFlags.Instance | 
+                BindingFlags.Public | 
+                BindingFlags.NonPublic | 
+                BindingFlags.DeclaredOnly
+            );
 
             foreach (MethodInfo m in mi)
                 Console.WriteLine("Method: {0}", m.Name);
