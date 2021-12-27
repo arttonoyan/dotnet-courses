@@ -10,13 +10,15 @@ namespace _005_Attributes_Currency
             //CultureInfo ci = new CultureInfo("en-US");
 
             decimal price = 25.25697M;
+            var cn = RateType.Amd.GetCultureName();
 
-            string v = price.ToString("C", new System.Globalization.CultureInfo("hy-AM"));
+            string v = price.ToString("C", new System.Globalization.CultureInfo("en-US"));
 
             string value = price.ToCurrency(RateType.Usd);
             string valueAmd = price.ToCurrency(RateType.Amd);
             string valueRu = price.ToCurrency(RateType.Rub);
             string valueAre = price.ToCurrency(RateType.Are);
+            string valueArb = price.ToCurrency(RateType.Arb);
 
             Console.ReadLine();
         }

@@ -9,6 +9,8 @@
         [RateInfo("ru-RU")]
         Rub,
         [RateInfo("ar-EG")]
-        Are
+        Are,
+        [RateInfo("ar-LB")]
+        Arb
     }
 }
