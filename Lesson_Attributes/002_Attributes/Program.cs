@@ -12,13 +12,12 @@ namespace _002_Attributes
             //MyClass.Method();
 
             Type type = typeof(MyClass);
-            object[] attributes = null;
 
             MyAttribute attribute = null;
 
             // Analysis of type attributes
             // Get all attributes of a given Attribute type (false  - without checking base classes).
-            attributes = type.GetCustomAttributes(false);
+            object[] attributes = type.GetCustomAttributes(false);
 
             foreach (object attributeType in attributes)
             {
