@@ -33,9 +33,5 @@ namespace _004_Expressions
 
             Console.ReadLine();
         }
-
-        static void Prop<TClass, TProperty>(Expression<Func<TClass, TProperty>> p)
-        {
-        }
     }
 }
