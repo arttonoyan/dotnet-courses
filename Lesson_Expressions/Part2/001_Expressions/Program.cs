@@ -9,7 +9,8 @@ namespace _001_Expressions
         static void Main(string[] args)
         {
             var par = Expression.Parameter(typeof(string), "p");
-            MethodInfo mi = typeof(SomeClass).GetMethod("TestMethod");
+
+            MethodInfo mi = typeof(SomeClass).GetMethod(nameof(SomeClass.TestMethod));
             MethodCallExpression body = Expression.Call(mi, par);
             Expression<Func<string, object>> testMethodExp = 
                 Expression.Lambda<Func<string, object>>(body, par);
