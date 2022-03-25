@@ -313,6 +313,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Threads", "Lesson_Threa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_Threads_ThreadStatic", "Lesson_Threads\004_Threads_ThreadStatic\004_Threads_ThreadStatic.csproj", "{41B5FB0F-8B2E-4D4B-ACD0-BC21C9AC526D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Threads_Priorities", "005_Threads_Priorities\005_Threads_Priorities.csproj", "{D1BAB0AF-C4C4-48FA-A7BC-4B05F930B4CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -867,6 +869,10 @@ Global
 		{41B5FB0F-8B2E-4D4B-ACD0-BC21C9AC526D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41B5FB0F-8B2E-4D4B-ACD0-BC21C9AC526D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41B5FB0F-8B2E-4D4B-ACD0-BC21C9AC526D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BAB0AF-C4C4-48FA-A7BC-4B05F930B4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BAB0AF-C4C4-48FA-A7BC-4B05F930B4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BAB0AF-C4C4-48FA-A7BC-4B05F930B4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BAB0AF-C4C4-48FA-A7BC-4B05F930B4CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1011,6 +1017,7 @@ Global
 		{504612E8-DFBD-4446-A329-129FEC965CB6} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{34327019-9863-4504-877E-03CBFF478C58} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{41B5FB0F-8B2E-4D4B-ACD0-BC21C9AC526D} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
+		{D1BAB0AF-C4C4-48FA-A7BC-4B05F930B4CB} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
