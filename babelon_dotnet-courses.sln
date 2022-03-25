@@ -323,6 +323,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Threads_Reader", "Lesso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_Threads_Monitor", "Lesson_Threads\009_Threads_Monitor\009_Threads_Monitor.csproj", "{208F0478-AAA0-434D-9198-E6BB249BBD3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Threads_LockBoxing", "Lesson_Threads\010_Threads_LockBoxing\010_Threads_LockBoxing.csproj", "{6F7E8878-2FE5-4369-B3BB-D86A4CD53947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -897,6 +899,10 @@ Global
 		{208F0478-AAA0-434D-9198-E6BB249BBD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208F0478-AAA0-434D-9198-E6BB249BBD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208F0478-AAA0-434D-9198-E6BB249BBD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7E8878-2FE5-4369-B3BB-D86A4CD53947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7E8878-2FE5-4369-B3BB-D86A4CD53947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7E8878-2FE5-4369-B3BB-D86A4CD53947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7E8878-2FE5-4369-B3BB-D86A4CD53947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1046,6 +1052,7 @@ Global
 		{22AB5991-D90A-4E35-AE6D-AF441BC0692A} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{008AC6BC-8281-436C-BAA8-FFB8D7EDE8AF} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{208F0478-AAA0-434D-9198-E6BB249BBD3E} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
+		{6F7E8878-2FE5-4369-B3BB-D86A4CD53947} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
