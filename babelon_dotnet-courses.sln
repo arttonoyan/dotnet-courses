@@ -303,6 +303,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_Expressions", "Lesson_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_Expressions", "Lesson_Expressions\Part2\009_Expressions\009_Expressions.csproj", "{6A941BB6-B1F5-4E17-B96B-140A8218873D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Hreads", "Lesson_Hreads", "{A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Threads", "Lesson_Hreads\001_Threads\001_Threads.csproj", "{515279F7-CBBD-4422-8C8F-602E9F1C1A0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -841,6 +845,10 @@ Global
 		{6A941BB6-B1F5-4E17-B96B-140A8218873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A941BB6-B1F5-4E17-B96B-140A8218873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A941BB6-B1F5-4E17-B96B-140A8218873D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515279F7-CBBD-4422-8C8F-602E9F1C1A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515279F7-CBBD-4422-8C8F-602E9F1C1A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515279F7-CBBD-4422-8C8F-602E9F1C1A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515279F7-CBBD-4422-8C8F-602E9F1C1A0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -981,6 +989,7 @@ Global
 		{A66CFB44-9BE2-406D-85FF-E37A6B6ECDE7} = {1CE9644E-E8C5-4E68-A393-0E0D224E1FF2}
 		{5A6DAC8E-FBFA-4FA3-B7CF-DD39446073F4} = {1CE9644E-E8C5-4E68-A393-0E0D224E1FF2}
 		{6A941BB6-B1F5-4E17-B96B-140A8218873D} = {1CE9644E-E8C5-4E68-A393-0E0D224E1FF2}
+		{515279F7-CBBD-4422-8C8F-602E9F1C1A0D} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
