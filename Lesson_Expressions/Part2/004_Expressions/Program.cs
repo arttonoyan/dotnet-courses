@@ -13,7 +13,7 @@ namespace _004_Expressions
             var destType = typeof(Student);
             Dictionary<string, PropertyInfo> members = destType
                 .GetProperties()
-                .ToDictionary(p => p.Name, p => p);
+                .ToDictionary(p => p.Name);
 
             ParameterExpression par = Expression.Parameter(destType, "p");
 
@@ -21,10 +21,11 @@ namespace _004_Expressions
             MemberExpression meSurname = Expression.Property(par, nameof(Student.Surname));
             MemberExpression meAge = Expression.Property(par, nameof(Student.Age));
 
-            NewExpression model = Expression.New(destType);
             MemberAssignment miName = Expression.Bind(members[nameof(Student.Name)], meName);
             MemberAssignment miSurName = Expression.Bind(members[nameof(Student.Surname)], meSurname);
             MemberAssignment miAge = Expression.Bind(members[nameof(Student.Age)], meAge);
+            
+            NewExpression model = Expression.New(destType);
 
             MemberInitExpression body = Expression.MemberInit(model, miName, miSurName, miAge);
 

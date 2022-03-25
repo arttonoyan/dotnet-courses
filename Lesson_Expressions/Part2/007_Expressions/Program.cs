@@ -33,7 +33,7 @@ namespace _007_Expressions
 
             Dictionary<string, PropertyInfo> members = destType
                 .GetProperties()
-                .ToDictionary(p => p.Name, p => p);
+                .ToDictionary(p => p.Name);
 
             var indexatorMethod = typeof(IDataRecord).GetProperties()
                 .First(p => p.GetIndexParameters()
