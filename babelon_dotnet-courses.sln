@@ -327,6 +327,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Threads_LockBoxing", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_Threads_LockString", "Lesson_Threads\011_Threads_LockString\011_Threads_LockString.csproj", "{1C935EA5-9254-4B54-9DF7-24094AF10FC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_Threads_Deadlock", "Lesson_Threads\012_Threads_Deadlock\012_Threads_Deadlock.csproj", "{1ADB81ED-B455-4882-9947-C592F63C8608}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -909,6 +911,10 @@ Global
 		{1C935EA5-9254-4B54-9DF7-24094AF10FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C935EA5-9254-4B54-9DF7-24094AF10FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C935EA5-9254-4B54-9DF7-24094AF10FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADB81ED-B455-4882-9947-C592F63C8608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADB81ED-B455-4882-9947-C592F63C8608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADB81ED-B455-4882-9947-C592F63C8608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADB81ED-B455-4882-9947-C592F63C8608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1060,6 +1066,7 @@ Global
 		{208F0478-AAA0-434D-9198-E6BB249BBD3E} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{6F7E8878-2FE5-4369-B3BB-D86A4CD53947} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{1C935EA5-9254-4B54-9DF7-24094AF10FC8} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
+		{1ADB81ED-B455-4882-9947-C592F63C8608} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
