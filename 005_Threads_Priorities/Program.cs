@@ -63,7 +63,7 @@ namespace _005_Threads_Priorities
             LoopSwitch = true;
         }
 
-        public volatile bool LoopSwitch;
+        public bool LoopSwitch;
 
         public void ThreadMethod()
         {
@@ -72,8 +72,6 @@ namespace _005_Threads_Priorities
             while (LoopSwitch)
             {
                 threadCount++;
-                //Thread.Sleep(0);
-                Thread.Yield();
             }
 
             Console.WriteLine("{0,-11} with {1,11} priority " +
