@@ -10,10 +10,10 @@ namespace _006_Threads_Background
             var t = new Thread(Worker);
 
             // Turning a thread into a background thread
-            t.IsBackground = false;
+            t.IsBackground = true;
             t.Start();
 
-            //Thread.Sleep(2000);
+            Thread.Sleep(1000);
             Console.WriteLine("Returning from Main");
         }
 
