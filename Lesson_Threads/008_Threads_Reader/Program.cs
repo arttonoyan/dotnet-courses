@@ -6,10 +6,11 @@ namespace _008_Threads_Reader
 {
     internal class Program
     {
-        private static Dictionary<int, int> dic = new ();
+        private static Dictionary<int, int> dic = new();
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Started...");
             var creater = new Thread(Creater);
             creater.Start();
 
@@ -19,6 +20,7 @@ namespace _008_Threads_Reader
             var reader = new Thread(Reader);
             reader.Start();
 
+            Console.WriteLine("Waiting to finish.");
             Console.ReadLine();
         }
 
@@ -41,13 +43,7 @@ namespace _008_Threads_Reader
             while (true)
             {
                 int number = 10;
-                try
-                {
-                    dic[10] = 10;
-                }
-                catch
-                {
-                }
+                dic[number] = number;
             }
         }
 
