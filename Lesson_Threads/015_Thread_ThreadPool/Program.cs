@@ -12,11 +12,13 @@ namespace _015_Thread_ThreadPool
             {
                 Console.WriteLine($"Child thread: {Thread.CurrentThread.ManagedThreadId}, State - '{state}'");
             });
+            ShowThreadInfo();
 
             Console.ReadLine();
 
             var student = new Student { Id = 12, Name = "A1" };
             ThreadPool.QueueUserWorkItem(BackgroundTask, student);
+            ShowThreadInfo();
 
             Console.ReadLine();
         }
@@ -31,6 +33,15 @@ namespace _015_Thread_ThreadPool
 
             Console.WriteLine($"Child thread: {Thread.CurrentThread.ManagedThreadId}, State - '{stateInfo}'");
         }
+
+        static void ShowThreadInfo()
+        {
+            ThreadPool.GetAvailableThreads(out int availableWorkThreads, out int completionPortThreads);
+            ThreadPool.GetMaxThreads(out int maxWorkThreads, out int maxCompletionPortThreads);
+            Console.WriteLine("-------------Available Work Threads: {0} from {1}", availableWorkThreads, maxWorkThreads);
+            Console.WriteLine("-------------Completion Port Threads:{0} from {1}\n", completionPortThreads, maxCompletionPortThreads);
+        }
+
     }
 
     public class Student
