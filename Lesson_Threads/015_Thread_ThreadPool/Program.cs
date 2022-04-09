@@ -13,7 +13,7 @@ namespace _015_Thread_ThreadPool
                 Console.WriteLine($"Child thread: {Thread.CurrentThread.ManagedThreadId}, State - '{state}'");
             });
 
-            //Console.ReadLine();
+            Console.ReadLine();
 
             var student = new Student { Id = 12, Name = "A1" };
             ThreadPool.QueueUserWorkItem(BackgroundTask, student);
