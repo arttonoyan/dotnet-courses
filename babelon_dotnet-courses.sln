@@ -345,6 +345,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019_Thread_SemaphoreSlim", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020_Thread_AutoResetEvent", "Lesson_Threads\020_Thread_AutoResetEvent\020_Thread_AutoResetEvent.csproj", "{57F1444F-530C-48AC-BD24-567A2CC56C7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021_Thread_ManualResetEvent", "Lesson_Threads\021_Thread_ManualResetEvent\021_Thread_ManualResetEvent.csproj", "{EAFEA5D5-26AA-4247-A862-BEF99A917087}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -963,6 +965,10 @@ Global
 		{57F1444F-530C-48AC-BD24-567A2CC56C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F1444F-530C-48AC-BD24-567A2CC56C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F1444F-530C-48AC-BD24-567A2CC56C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFEA5D5-26AA-4247-A862-BEF99A917087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFEA5D5-26AA-4247-A862-BEF99A917087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFEA5D5-26AA-4247-A862-BEF99A917087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFEA5D5-26AA-4247-A862-BEF99A917087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1123,6 +1129,7 @@ Global
 		{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{E2545B5D-81B9-43ED-88EA-C9609A0A1711} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{57F1444F-530C-48AC-BD24-567A2CC56C7B} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
+		{EAFEA5D5-26AA-4247-A862-BEF99A917087} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
