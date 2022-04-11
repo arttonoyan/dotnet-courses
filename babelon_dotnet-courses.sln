@@ -339,6 +339,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016_Thread_Mutex", "Lesson_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017_Thread_Mutex_WindowsForm", "Lesson_Threads\017_Thread_Mutex_WindowsForm\017_Thread_Mutex_WindowsForm.csproj", "{4AA04598-7D7C-497D-AB3A-1B7824AD5394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018_Thread_Semaphore", "Lesson_Threads\018_Thread_Semaphore\018_Thread_Semaphore.csproj", "{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -945,6 +947,10 @@ Global
 		{4AA04598-7D7C-497D-AB3A-1B7824AD5394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AA04598-7D7C-497D-AB3A-1B7824AD5394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AA04598-7D7C-497D-AB3A-1B7824AD5394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1102,6 +1108,7 @@ Global
 		{90F614E5-F242-42EE-AFE4-012D52D302C4} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{67C31B13-4577-4D13-84DC-8358D7E32BA8} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{4AA04598-7D7C-497D-AB3A-1B7824AD5394} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
+		{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
