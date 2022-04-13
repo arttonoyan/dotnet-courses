@@ -20,8 +20,8 @@ namespace _012_Threads_Deadlock
             Console.ReadLine();
         }
 
-        private static readonly object locker1 = new object();
-        private static readonly object locker2 = new object();
+        private static readonly object locker1 = new();
+        private static readonly object locker2 = new();
 
         public static void Func1()
         {
