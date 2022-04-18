@@ -46,6 +46,5 @@ namespace _013_Thread_Volatile
 
             Console.WriteLine("Worker: x = {0}.", x);
         }
-
     }
 }
