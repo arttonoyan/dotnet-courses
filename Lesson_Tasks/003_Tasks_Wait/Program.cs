@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _002_Tasks
+namespace _003_Tasks_Wait
 {
     internal class Program
     {
@@ -21,6 +21,9 @@ namespace _002_Tasks
 
             task1.Start();
             task2.Start();
+
+            task1.Wait();
+            task2.Wait();
 
             for (int i = 0; i < 60; i++)
             {
