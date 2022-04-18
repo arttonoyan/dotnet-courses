@@ -19,7 +19,6 @@ namespace _002_Tasks
             Console.WriteLine("task1 Id: " + task1.Id);
             Console.WriteLine("task2 Id: " + task2.Id);
 
-            // Метод Main() остается активным до завершения задачи MyTask(). 
             for (int i = 0; i < 60; i++)
             {
                 Console.Write(".");
