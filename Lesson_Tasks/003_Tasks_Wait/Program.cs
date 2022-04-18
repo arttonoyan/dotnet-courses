@@ -24,6 +24,7 @@ namespace _003_Tasks_Wait
 
             task1.Wait();
             task2.Wait();
+            //Task.WaitAll(task1, task2);
 
             for (int i = 0; i < 60; i++)
             {
