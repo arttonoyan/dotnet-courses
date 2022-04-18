@@ -327,25 +327,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_Threads_LockString", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012_Threads_Deadlock", "Lesson_Threads\012_Threads_Deadlock\012_Threads_Deadlock.csproj", "{1ADB81ED-B455-4882-9947-C592F63C8608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013_Thread_Volatile", "Lesson_Threads\006_Threads_Background\013_Thread_Volatile\013_Thread_Volatile.csproj", "{977E46B1-452C-43F6-A86F-E8AF9538C8AC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_Threads_Priorities", "Lesson_Threads\005_Threads_Priorities\005_Threads_Priorities.csproj", "{C4D302BB-C98F-4161-8226-14758911636D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014_Thread_Volatile", "Lesson_Threads\014_Thread_Volatile\014_Thread_Volatile.csproj", "{94DE04BD-558A-4C94-BAD1-571BFE805A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "014_Thread_Volatile", "Lesson_Threads\014_Thread_Volatile\014_Thread_Volatile.csproj", "{94DE04BD-558A-4C94-BAD1-571BFE805A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015_Thread_ThreadPool", "Lesson_Threads\015_Thread_ThreadPool\015_Thread_ThreadPool.csproj", "{90F614E5-F242-42EE-AFE4-012D52D302C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "015_Thread_ThreadPool", "Lesson_Threads\015_Thread_ThreadPool\015_Thread_ThreadPool.csproj", "{90F614E5-F242-42EE-AFE4-012D52D302C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016_Thread_Mutex", "Lesson_Threads\016_Thread_Mutex\016_Thread_Mutex.csproj", "{67C31B13-4577-4D13-84DC-8358D7E32BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016_Thread_Mutex", "Lesson_Threads\016_Thread_Mutex\016_Thread_Mutex.csproj", "{67C31B13-4577-4D13-84DC-8358D7E32BA8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017_Thread_Mutex_WindowsForm", "Lesson_Threads\017_Thread_Mutex_WindowsForm\017_Thread_Mutex_WindowsForm.csproj", "{4AA04598-7D7C-497D-AB3A-1B7824AD5394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018_Thread_Semaphore", "Lesson_Threads\018_Thread_Semaphore\018_Thread_Semaphore.csproj", "{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "018_Thread_Semaphore", "Lesson_Threads\018_Thread_Semaphore\018_Thread_Semaphore.csproj", "{08CC0FAF-4F67-4F6D-BAA2-84D7164E3AF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019_Thread_SemaphoreSlim", "Lesson_Threads\019_Thread_SemaphoreSlim\019_Thread_SemaphoreSlim.csproj", "{E2545B5D-81B9-43ED-88EA-C9609A0A1711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "019_Thread_SemaphoreSlim", "Lesson_Threads\019_Thread_SemaphoreSlim\019_Thread_SemaphoreSlim.csproj", "{E2545B5D-81B9-43ED-88EA-C9609A0A1711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020_Thread_AutoResetEvent", "Lesson_Threads\020_Thread_AutoResetEvent\020_Thread_AutoResetEvent.csproj", "{57F1444F-530C-48AC-BD24-567A2CC56C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "020_Thread_AutoResetEvent", "Lesson_Threads\020_Thread_AutoResetEvent\020_Thread_AutoResetEvent.csproj", "{57F1444F-530C-48AC-BD24-567A2CC56C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021_Thread_ManualResetEvent", "Lesson_Threads\021_Thread_ManualResetEvent\021_Thread_ManualResetEvent.csproj", "{EAFEA5D5-26AA-4247-A862-BEF99A917087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "021_Thread_ManualResetEvent", "Lesson_Threads\021_Thread_ManualResetEvent\021_Thread_ManualResetEvent.csproj", "{EAFEA5D5-26AA-4247-A862-BEF99A917087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013_Thread_Volatile", "Lesson_Threads\013_Thread_Volatile\013_Thread_Volatile.csproj", "{FA49696F-FD87-42FB-8843-7D1B11E51296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -929,10 +929,6 @@ Global
 		{1ADB81ED-B455-4882-9947-C592F63C8608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADB81ED-B455-4882-9947-C592F63C8608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADB81ED-B455-4882-9947-C592F63C8608}.Release|Any CPU.Build.0 = Release|Any CPU
-		{977E46B1-452C-43F6-A86F-E8AF9538C8AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{977E46B1-452C-43F6-A86F-E8AF9538C8AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{977E46B1-452C-43F6-A86F-E8AF9538C8AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{977E46B1-452C-43F6-A86F-E8AF9538C8AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C4D302BB-C98F-4161-8226-14758911636D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4D302BB-C98F-4161-8226-14758911636D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D302BB-C98F-4161-8226-14758911636D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -969,6 +965,10 @@ Global
 		{EAFEA5D5-26AA-4247-A862-BEF99A917087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFEA5D5-26AA-4247-A862-BEF99A917087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFEA5D5-26AA-4247-A862-BEF99A917087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA49696F-FD87-42FB-8843-7D1B11E51296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA49696F-FD87-42FB-8843-7D1B11E51296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA49696F-FD87-42FB-8843-7D1B11E51296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA49696F-FD87-42FB-8843-7D1B11E51296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1120,7 +1120,6 @@ Global
 		{6F7E8878-2FE5-4369-B3BB-D86A4CD53947} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{1C935EA5-9254-4B54-9DF7-24094AF10FC8} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{1ADB81ED-B455-4882-9947-C592F63C8608} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
-		{977E46B1-452C-43F6-A86F-E8AF9538C8AC} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{C4D302BB-C98F-4161-8226-14758911636D} = {C5710E89-A5BD-4C67-9A52-EE3918CEECE3}
 		{94DE04BD-558A-4C94-BAD1-571BFE805A36} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{90F614E5-F242-42EE-AFE4-012D52D302C4} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
@@ -1130,6 +1129,7 @@ Global
 		{E2545B5D-81B9-43ED-88EA-C9609A0A1711} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{57F1444F-530C-48AC-BD24-567A2CC56C7B} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 		{EAFEA5D5-26AA-4247-A862-BEF99A917087} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
+		{FA49696F-FD87-42FB-8843-7D1B11E51296} = {A5CB8DD8-A390-4DCA-9E8E-718B82DE7D6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
