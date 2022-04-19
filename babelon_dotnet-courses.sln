@@ -367,6 +367,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Tasks_Cancellation", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Tasks_Cancellation", "Lesson_Tasks\009_Tasks_Cancellation\009_Tasks_Cancellation.csproj", "{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Tasks_Timer", "Lesson_Tasks\010_Tasks_Timer\010_Tasks_Timer.csproj", "{743C71FE-982E-4CA1-82FD-3AD513A25EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1025,6 +1027,10 @@ Global
 		{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743C71FE-982E-4CA1-82FD-3AD513A25EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743C71FE-982E-4CA1-82FD-3AD513A25EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743C71FE-982E-4CA1-82FD-3AD513A25EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743C71FE-982E-4CA1-82FD-3AD513A25EF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1195,6 +1201,7 @@ Global
 		{666B30C7-E81C-4BCA-945F-75CCD42959A8} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{5E42610E-EA85-4E99-BB5D-F1523BC9134F} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444} = {E68D6AE1-DCBF-4332-9256-951328068C36}
+		{743C71FE-982E-4CA1-82FD-3AD513A25EF7} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
