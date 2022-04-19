@@ -23,7 +23,7 @@ namespace _009_Tasks_Cancellation
                 {
                     tf.StartNew(() => Sum(30000, 4000, cts.Token)),
                     tf.StartNew(() => Sum(20, 0, cts.Token)),
-                    tf.StartNew(() => Sum(Int32.MaxValue, 0, cts.Token))
+                    tf.StartNew(() => Sum(int.MaxValue, 0, cts.Token))
                 };
 
                 // If any child throws, cancel all
