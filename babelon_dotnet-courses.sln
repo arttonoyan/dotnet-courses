@@ -361,6 +361,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Tasks_Factory", "Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Tasks_ContinueWith", "Lesson_Tasks\006_Tasks_ContinueWith\006_Tasks_ContinueWith.csproj", "{B355BF50-E1D4-4B0A-8CDF-06C833E0581A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Tasks_Cancellation", "Lesson_Tasks\007_Tasks_Cancellation\007_Tasks_Cancellation.csproj", "{666B30C7-E81C-4BCA-945F-75CCD42959A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1007,6 +1009,10 @@ Global
 		{B355BF50-E1D4-4B0A-8CDF-06C833E0581A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B355BF50-E1D4-4B0A-8CDF-06C833E0581A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B355BF50-E1D4-4B0A-8CDF-06C833E0581A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666B30C7-E81C-4BCA-945F-75CCD42959A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666B30C7-E81C-4BCA-945F-75CCD42959A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666B30C7-E81C-4BCA-945F-75CCD42959A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666B30C7-E81C-4BCA-945F-75CCD42959A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1174,6 +1180,7 @@ Global
 		{F309131C-8FA3-430F-8EF9-CE1CCE3460EA} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{3CD4688B-6D9C-4B59-A9F9-CBD28F9336FD} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{B355BF50-E1D4-4B0A-8CDF-06C833E0581A} = {E68D6AE1-DCBF-4332-9256-951328068C36}
+		{666B30C7-E81C-4BCA-945F-75CCD42959A8} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
