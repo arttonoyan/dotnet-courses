@@ -62,6 +62,7 @@ namespace _009_Tasks_Cancellation
             }, TaskContinuationOptions.OnlyOnFaulted);
 
             parentTask.Start();
+
             Console.ReadLine();
         }
 
@@ -75,12 +76,12 @@ namespace _009_Tasks_Cancellation
                 Thread.Sleep(delay);
             }
 
-            for (; n > 0; n--)
+            for (int i = 0; i < n; i++)
             {
                 token.ThrowIfCancellationRequested();
                 checked
                 {
-                    sum += n;
+                    sum += i;
                 }
             }
 
