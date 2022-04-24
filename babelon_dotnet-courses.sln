@@ -357,19 +357,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Tasks_Wait", "Lesson_Ta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_Tasks_Factory", "Lesson_Tasks\004_Tasks_Factory\004_Tasks_Factory.csproj", "{F309131C-8FA3-430F-8EF9-CE1CCE3460EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Tasks_Factory", "Lesson_Tasks\005_Tasks_Factory\005_Tasks_Factory.csproj", "{3CD4688B-6D9C-4B59-A9F9-CBD28F9336FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_Tasks_Factory", "Lesson_Tasks\005_Tasks_Factory\005_Tasks_Factory.csproj", "{3CD4688B-6D9C-4B59-A9F9-CBD28F9336FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Tasks_ContinueWith", "Lesson_Tasks\006_Tasks_ContinueWith\006_Tasks_ContinueWith.csproj", "{B355BF50-E1D4-4B0A-8CDF-06C833E0581A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_Tasks_ContinueWith", "Lesson_Tasks\006_Tasks_ContinueWith\006_Tasks_ContinueWith.csproj", "{B355BF50-E1D4-4B0A-8CDF-06C833E0581A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Tasks_Cancellation", "Lesson_Tasks\007_Tasks_Cancellation\007_Tasks_Cancellation.csproj", "{666B30C7-E81C-4BCA-945F-75CCD42959A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_Tasks_Cancellation", "Lesson_Tasks\007_Tasks_Cancellation\007_Tasks_Cancellation.csproj", "{666B30C7-E81C-4BCA-945F-75CCD42959A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Tasks_Cancellation", "Lesson_Tasks\008_Tasks_Cancellation\008_Tasks_Cancellation.csproj", "{5E42610E-EA85-4E99-BB5D-F1523BC9134F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_Tasks_Cancellation", "Lesson_Tasks\008_Tasks_Cancellation\008_Tasks_Cancellation.csproj", "{5E42610E-EA85-4E99-BB5D-F1523BC9134F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Tasks_Cancellation", "Lesson_Tasks\009_Tasks_Cancellation\009_Tasks_Cancellation.csproj", "{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_Tasks_Cancellation", "Lesson_Tasks\009_Tasks_Cancellation\009_Tasks_Cancellation.csproj", "{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Tasks_Timer", "Lesson_Tasks\010_Tasks_Timer\010_Tasks_Timer.csproj", "{743C71FE-982E-4CA1-82FD-3AD513A25EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010_Tasks_Timer", "Lesson_Tasks\010_Tasks_Timer\010_Tasks_Timer.csproj", "{743C71FE-982E-4CA1-82FD-3AD513A25EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_Tasks_ConfigureAwait", "Lesson_Tasks\011_Tasks_ConfigureAwait\011_Tasks_ConfigureAwait.csproj", "{425FEFBF-9C65-4D68-985A-A24B1A2A7300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_Tasks_ConfigureAwait", "Lesson_Tasks\011_Tasks_ConfigureAwait\011_Tasks_ConfigureAwait.csproj", "{425FEFBF-9C65-4D68-985A-A24B1A2A7300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Tasks_WaitAll_vs_WhenAll", "Lesson_Tasks\003_Tasks_WaitAll_vs_WhenAll\003_Tasks_WaitAll_vs_WhenAll.csproj", "{8ECEC698-1CD5-4F32-9A45-453C904C6629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1037,6 +1039,10 @@ Global
 		{425FEFBF-9C65-4D68-985A-A24B1A2A7300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{425FEFBF-9C65-4D68-985A-A24B1A2A7300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{425FEFBF-9C65-4D68-985A-A24B1A2A7300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECEC698-1CD5-4F32-9A45-453C904C6629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECEC698-1CD5-4F32-9A45-453C904C6629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECEC698-1CD5-4F32-9A45-453C904C6629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECEC698-1CD5-4F32-9A45-453C904C6629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1209,6 +1215,7 @@ Global
 		{4698C2B7-90EF-42B6-9DED-E4A5AD3F9444} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{743C71FE-982E-4CA1-82FD-3AD513A25EF7} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{425FEFBF-9C65-4D68-985A-A24B1A2A7300} = {E68D6AE1-DCBF-4332-9256-951328068C36}
+		{8ECEC698-1CD5-4F32-9A45-453C904C6629} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}

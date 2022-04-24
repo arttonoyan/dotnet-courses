@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _003_Tasks_Wait
+namespace _003_Tasks_WaitAll_vs_WhenAll
 {
     internal class Program
     {
@@ -11,21 +11,9 @@ namespace _003_Tasks_Wait
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Main Thread start.");
-
-            var task1 = new Task(Worker);
-            var task2 = new Task(Worker);
-
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("task1 Id: " + task1.Id);
-            Console.WriteLine("task2 Id: " + task2.Id);
             Console.ResetColor();
 
-            //task1.Start();
-            //task2.Start();
-
-            ////task1.Wait();
-            ////task2.Wait();
-            //Task.WaitAll(task1, task2);
+            var task = DoWorkAsync(3);
 
             for (int i = 0; i < 60; i++)
             {
@@ -33,10 +21,28 @@ namespace _003_Tasks_Wait
                 Thread.Sleep(100);
             }
 
+            task.Wait();
+
             Console.WriteLine();
             Console.WriteLine("Main thread has been completed. CurrentId = null? - {0}.", Task.CurrentId == null);
 
             Console.ReadLine();
+        }
+
+        public static Task DoWorkAsync(int count)
+        {
+            var tastks = Enumerable
+                .Range(0, count)
+                .Select(p =>
+                {
+                    var task = new Task(Worker);
+                    task.Start();
+                    return task;
+                });
+
+            Task.WaitAll(tastks.ToArray());
+            return Task.CompletedTask;
+            //return Task.WhenAll(tastks);
         }
 
         static void Worker()

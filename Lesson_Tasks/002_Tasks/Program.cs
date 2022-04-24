@@ -11,8 +11,8 @@ namespace _002_Tasks
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Main Thread start.");
 
-            var task1 = new Task(MyTask);
-            var task2 = new Task(MyTask);
+            var task1 = new Task(Worker);
+            var task2 = new Task(Worker);
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("task1 Id: " + task1.Id);
@@ -34,18 +34,18 @@ namespace _002_Tasks
             Console.ReadLine();
         }
 
-        static void MyTask()
+        static void Worker()
         {
-            Console.WriteLine("MyTask() # " + Task.CurrentId + " Start.");
+            Console.WriteLine("Worker() # " + Task.CurrentId + " Start.");
 
             for (int count = 0; count < 10; count++)
             {
                 Thread.Sleep(500);
 
-                Console.WriteLine("MyTask() #" + Task.CurrentId + " count: " + count);
+                Console.WriteLine("Worker() #" + Task.CurrentId + " count: " + count);
             }
 
-            Console.WriteLine("MyTask() # " + Task.CurrentId + " End.");
+            Console.WriteLine("Worker() # " + Task.CurrentId + " End.");
         }
 
     }
