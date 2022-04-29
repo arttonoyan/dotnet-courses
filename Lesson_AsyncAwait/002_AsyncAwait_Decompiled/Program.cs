@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _002_AsyncAwait
+namespace _002_AsyncAwait_Decompiled
 {
     internal class Program
     {
