@@ -393,6 +393,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_AsyncAwait_Decompiled_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_AsyncAwait", "Lesson_AsyncAwait\005_AsyncAwait\005_AsyncAwait.csproj", "{397CB317-BF50-4356-AC70-A043035CFD89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_AsyncAwait_Task", "Lesson_AsyncAwait\006_AsyncAwait_Task\006_AsyncAwait_Task.csproj", "{F0E18BB8-B84B-455C-BE74-27B3C9CFD88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_AsyncAwait_Task_Decompiled_Clean", "Lesson_AsyncAwait\006_AsyncAwait_Task_Decompiled_Clean\006_AsyncAwait_Task_Decompiled_Clean.csproj", "{2B1C771D-1422-42FC-B933-3AAA6FB84FC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1099,6 +1103,14 @@ Global
 		{397CB317-BF50-4356-AC70-A043035CFD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{397CB317-BF50-4356-AC70-A043035CFD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{397CB317-BF50-4356-AC70-A043035CFD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E18BB8-B84B-455C-BE74-27B3C9CFD88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E18BB8-B84B-455C-BE74-27B3C9CFD88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E18BB8-B84B-455C-BE74-27B3C9CFD88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E18BB8-B84B-455C-BE74-27B3C9CFD88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1C771D-1422-42FC-B933-3AAA6FB84FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1C771D-1422-42FC-B933-3AAA6FB84FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1C771D-1422-42FC-B933-3AAA6FB84FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1C771D-1422-42FC-B933-3AAA6FB84FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1281,6 +1293,8 @@ Global
 		{713B01AD-3101-493B-A7CA-4BC02A302509} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
 		{0C8946F4-FEEA-48FF-9742-6EC1AEBEF108} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
 		{397CB317-BF50-4356-AC70-A043035CFD89} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
+		{F0E18BB8-B84B-455C-BE74-27B3C9CFD88B} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
+		{2B1C771D-1422-42FC-B933-3AAA6FB84FC9} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
