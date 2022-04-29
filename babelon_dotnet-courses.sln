@@ -379,6 +379,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013_Tasks_ValueTask_Excepti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014_Tasks_ValueTask", "Lesson_Tasks\014_Tasks_ValueTask\014_Tasks_ValueTask.csproj", "{898D68EE-3E38-4D27-8342-7C3A9E4A7957}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_AsyncAwait", "Lesson_AsyncAwait", "{1EDFDF28-115A-4DD5-A855-AE278AF2F747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_AsyncAwait", "Lesson_AsyncAwait\001_AsyncAwait\001_AsyncAwait.csproj", "{D55C5298-40FF-4432-9EA0-1B0130ACDA68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1061,6 +1065,10 @@ Global
 		{898D68EE-3E38-4D27-8342-7C3A9E4A7957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{898D68EE-3E38-4D27-8342-7C3A9E4A7957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{898D68EE-3E38-4D27-8342-7C3A9E4A7957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55C5298-40FF-4432-9EA0-1B0130ACDA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55C5298-40FF-4432-9EA0-1B0130ACDA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55C5298-40FF-4432-9EA0-1B0130ACDA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55C5298-40FF-4432-9EA0-1B0130ACDA68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1237,6 +1245,7 @@ Global
 		{D08C660B-5A48-4214-8078-E2D1937BB538} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{D0419F83-A3FC-4F2B-AD20-70A870A0BE7E} = {E68D6AE1-DCBF-4332-9256-951328068C36}
 		{898D68EE-3E38-4D27-8342-7C3A9E4A7957} = {E68D6AE1-DCBF-4332-9256-951328068C36}
+		{D55C5298-40FF-4432-9EA0-1B0130ACDA68} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
