@@ -389,6 +389,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_AsyncAwait_Decompiled_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_AsyncAwait", "Lesson_AsyncAwait\004_AsyncAwait\004_AsyncAwait.csproj", "{713B01AD-3101-493B-A7CA-4BC02A302509}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_AsyncAwait_Decompiled_Clean", "Lesson_AsyncAwait\004_AsyncAwait_Decompiled_Clean\004_AsyncAwait_Decompiled_Clean.csproj", "{0C8946F4-FEEA-48FF-9742-6EC1AEBEF108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1087,6 +1089,10 @@ Global
 		{713B01AD-3101-493B-A7CA-4BC02A302509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713B01AD-3101-493B-A7CA-4BC02A302509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713B01AD-3101-493B-A7CA-4BC02A302509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8946F4-FEEA-48FF-9742-6EC1AEBEF108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8946F4-FEEA-48FF-9742-6EC1AEBEF108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8946F4-FEEA-48FF-9742-6EC1AEBEF108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8946F4-FEEA-48FF-9742-6EC1AEBEF108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1267,6 +1273,7 @@ Global
 		{034833B4-1386-4044-B88A-4DAC9D5891F2} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
 		{9D27BF83-E85B-42D4-B060-1465C743FE5F} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
 		{713B01AD-3101-493B-A7CA-4BC02A302509} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
+		{0C8946F4-FEEA-48FF-9742-6EC1AEBEF108} = {1EDFDF28-115A-4DD5-A855-AE278AF2F747}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
