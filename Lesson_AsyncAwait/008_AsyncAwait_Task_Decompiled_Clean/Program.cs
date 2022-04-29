@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _007_AsyncAwait_Task_Decompiled_Clean
+namespace _008_AsyncAwait_Task_Decompiled_Clean
 {
     internal class Program
     {
@@ -12,7 +12,7 @@ namespace _007_AsyncAwait_Task_Decompiled_Clean
         {
             Console.WriteLine($"Main ThreadId {Thread.CurrentThread.ManagedThreadId}");
             var my = new MyClass();
-            var task = my.OperationAsync();
+            var task = my.OperationAsync(100);
 
             task.ContinueWith(t => Console.WriteLine($"Result: {t.Result}"));
 
@@ -22,19 +22,20 @@ namespace _007_AsyncAwait_Task_Decompiled_Clean
 
     public class MyClass
     {
-        public int Operation()
+        public int Operation(int arg)
         {
             Console.WriteLine($"Operation ThreadId {Thread.CurrentThread.ManagedThreadId}");
             Thread.Sleep(2000);
-            return 100;
+            return 2 * arg;
         }
 
-        public Task<int> OperationAsync()
+        public Task<int> OperationAsync(int arg)
         {
             AsyncStateMachine stateMachine = new();
             stateMachine.outer = this;
             stateMachine.builder = AsyncTaskMethodBuilder<int>.Create();
             stateMachine.state = -1;
+            stateMachine.arg = arg;
 
             stateMachine.builder.Start(ref stateMachine);
 
@@ -49,6 +50,7 @@ namespace _007_AsyncAwait_Task_Decompiled_Clean
             public AsyncTaskMethodBuilder<int> builder;   // for Task OperationAsync
             public MyClass outer;
             public int state;
+            public int arg;
 
             TaskAwaiter<int> awaiter;
 
@@ -56,7 +58,7 @@ namespace _007_AsyncAwait_Task_Decompiled_Clean
             {
                 if (state == -1)
                 {
-                    awaiter = Task<int>.Factory.StartNew(outer.Operation).GetAwaiter();
+                    awaiter = Task<int>.Factory.StartNew(() => outer.Operation(arg)).GetAwaiter();
 
                     state = 0;
 
