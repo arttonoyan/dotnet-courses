@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace _013_Tasks_ValueTask_Exception
+namespace _003_ValueTasks_Exceptions
 {
     internal class Program
     {
@@ -23,15 +23,19 @@ namespace _013_Tasks_ValueTask_Exception
         {
             try
             {
+                //...
+
                 if (test)
                     throw new Exception("My Test Exception.");
+
+                //...
+
+                return ValueTask.CompletedTask;
             }
             catch (Exception ex)
             {
                 return new ValueTask(Task.FromException(ex));
             }
-
-            return ValueTask.CompletedTask;
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace _012_Tasks_ValueTask
+namespace _000_ValueTasks
 {
     internal class Program
     {
@@ -13,13 +13,13 @@ namespace _012_Tasks_ValueTask
             }
 
             Console.WriteLine("Finish");
-            
+
             Console.ReadLine();
         }
 
         private static Task<int> RunTasks()
         {
-            return Task.Factory.StartNew(() => 10);
+            return Task.FromResult(10);
         }
 
         private static ValueTask<int> RunValueTasks()
