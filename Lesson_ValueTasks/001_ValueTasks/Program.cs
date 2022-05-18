@@ -1,49 +1,28 @@
-﻿using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Running;
-using System;
+﻿using System;
 using System.Threading.Tasks;
 
 namespace _001_ValueTasks
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<TasksBenchmarker>();
-        }
-    }
-
-    [MemoryDiagnoser]
-    [SimpleJob(launchCount: 1, warmupCount: 1, targetCount: 1)]
-    public class TasksBenchmarker
-    {
-        [Params(1000, 10000)]
-        public int TotalCount { get; set; }
-
-        [Benchmark]
-        public async Task Tasks()
-        {
-            for (int i = 0; i < TotalCount; i++)
+            for (int i = 0; i < 1000; i++)
             {
-                await RunTask();
+                await RunValueTasks();
             }
+
+            Console.WriteLine("Finish");
+
+            Console.ReadLine();
         }
 
-        [Benchmark]
-        public async Task ValueTasks()
-        {
-            for (int i = 0; i < TotalCount; i++)
-            {
-                await RunValueTask();
-            }
-        }
-
-        private Task<int> RunTask()
+        private static Task<int> RunTasks()
         {
             return Task.FromResult(10);
         }
 
-        private ValueTask<int> RunValueTask()
+        private static ValueTask<int> RunValueTasks()
         {
             return new ValueTask<int>(10);
         }
