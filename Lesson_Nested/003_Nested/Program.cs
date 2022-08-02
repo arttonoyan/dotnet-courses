@@ -21,7 +21,7 @@ namespace _003_Nested
 
         public class Nested
         {
-            MyClass instance = new MyClass();
+            private readonly MyClass instance = new();
 
             public void Method(int a)
             {

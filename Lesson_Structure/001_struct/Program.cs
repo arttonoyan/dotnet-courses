@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace _001_struct
 {
@@ -6,7 +8,6 @@ namespace _001_struct
     {
         static void Main(string[] args)
         {
-            //int a = 10;
             //ValueType vt = a;
             MyStruct ms;
 
@@ -15,7 +16,6 @@ namespace _001_struct
             Console.WriteLine(ms.field);
 
             Console.ReadLine();
-
         }
     }
 

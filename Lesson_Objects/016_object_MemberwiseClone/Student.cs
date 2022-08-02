@@ -7,7 +7,21 @@
         public string Name { get; set; }
         public string Fullname => $"{Surname} {Name}";
 
-        public Student Clone() =>
-            MemberwiseClone() as Student;
+        public University University { get; set; }
+
+        public Student Clone()
+        {
+            var st = MemberwiseClone() as Student;
+            st.University = University.Clone();
+            return st;
+        }
+    }
+
+    class University
+    {
+        public int Id { get; set; }
+
+        public University Clone() =>
+            MemberwiseClone() as University;
     }
 }

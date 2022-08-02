@@ -52,6 +52,5 @@ namespace _001_inheritance
         //    Console.WriteLine(model.FullName);
         //    Console.WriteLine();
         //}
-
     }
 }

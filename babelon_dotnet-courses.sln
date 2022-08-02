@@ -79,10 +79,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010_struct_boxing", "Lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_struct_boxing_point", "Lesson_Structure\011_struct_boxing_point\011_struct_boxing_point.csproj", "{16C4B490-5D03-4988-950B-BCB955AA3013}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_struct_StackOverflow", "Lesson_Structure\011_struct_StackOverflow\011_struct_StackOverflow.csproj", "{5ED5C7C8-ED17-460C-89F1-0CF4F6A30255}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012_struct_StackOverflow", "Lesson_Structure\012_struct_StackOverflow\012_struct_StackOverflow.csproj", "{26CA0AC8-587F-49AC-8F1B-32AEA819107D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_Strings", "Lesson_Strings", "{86C59C6A-20B6-452C-96FF-5659F45C0843}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_CultureInfo", "Lesson_Strings\001_CultureInfo\001_CultureInfo.csproj", "{7A2E4EB0-6CBB-4026-B8E0-3C5EEE57AFCC}"
@@ -411,15 +407,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_ValueTasks_Reader", "Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_ValueTasks_Reader.Benchmark", "Lesson_ValueTasks\004_ValueTasks_Reader.Benchmark\004_ValueTasks_Reader.Benchmark.csproj", "{933CCF1D-96C3-48BE-906A-EEC4045D0D2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_ValueTasks_Foo", "Lesson_ValueTasks\005_ValueTasks_Foo\005_ValueTasks_Foo.csproj", "{46DED309-61B0-43C5-8655-196B8A45D46D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_ValueTasks_Foo", "Lesson_ValueTasks\005_ValueTasks_Foo\005_ValueTasks_Foo.csproj", "{46DED309-61B0-43C5-8655-196B8A45D46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_ValueTasks_WhenAll_Foo", "Lesson_ValueTasks\005_ValueTasks_WhenAll_Foo\005_ValueTasks_WhenAll_Foo.csproj", "{D8842A0C-DC6C-441D-AD04-6B9D62954C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_ValueTasks_WhenAll_Foo", "Lesson_ValueTasks\005_ValueTasks_WhenAll_Foo\005_ValueTasks_WhenAll_Foo.csproj", "{D8842A0C-DC6C-441D-AD04-6B9D62954C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_ValueTasks_WhenAll_Benchmark", "Lesson_ValueTasks\006_ValueTasks_WhenAll_Benchmark\006_ValueTasks_WhenAll_Benchmark.csproj", "{A935C30F-9231-4D7F-8132-A63AE5B3D068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_ValueTasks_WhenAll_Benchmark", "Lesson_ValueTasks\006_ValueTasks_WhenAll_Benchmark\006_ValueTasks_WhenAll_Benchmark.csproj", "{A935C30F-9231-4D7F-8132-A63AE5B3D068}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_ValueTasks", "Lesson_ValueTasks\001_ValueTasks\001_ValueTasks.csproj", "{27B494C1-CD55-4D98-B0A5-A820CB51B80C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_ValueTasks.Benchmark", "Lesson_ValueTasks\001_ValueTasks.Benchmark\001_ValueTasks.Benchmark.csproj", "{61CBD047-0651-42A2-80A5-2AF63BFC7AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_struct_StackOverflow", "Lesson_Structure\012_struct_StackOverflow\012_struct_StackOverflow.csproj", "{3EA838F9-17E3-44C9-BD7B-86430BD610D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -563,14 +561,6 @@ Global
 		{16C4B490-5D03-4988-950B-BCB955AA3013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16C4B490-5D03-4988-950B-BCB955AA3013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16C4B490-5D03-4988-950B-BCB955AA3013}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5ED5C7C8-ED17-460C-89F1-0CF4F6A30255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5ED5C7C8-ED17-460C-89F1-0CF4F6A30255}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5ED5C7C8-ED17-460C-89F1-0CF4F6A30255}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5ED5C7C8-ED17-460C-89F1-0CF4F6A30255}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26CA0AC8-587F-49AC-8F1B-32AEA819107D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26CA0AC8-587F-49AC-8F1B-32AEA819107D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26CA0AC8-587F-49AC-8F1B-32AEA819107D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26CA0AC8-587F-49AC-8F1B-32AEA819107D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A2E4EB0-6CBB-4026-B8E0-3C5EEE57AFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A2E4EB0-6CBB-4026-B8E0-3C5EEE57AFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2E4EB0-6CBB-4026-B8E0-3C5EEE57AFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -1179,6 +1169,10 @@ Global
 		{61CBD047-0651-42A2-80A5-2AF63BFC7AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61CBD047-0651-42A2-80A5-2AF63BFC7AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61CBD047-0651-42A2-80A5-2AF63BFC7AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA838F9-17E3-44C9-BD7B-86430BD610D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA838F9-17E3-44C9-BD7B-86430BD610D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA838F9-17E3-44C9-BD7B-86430BD610D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA838F9-17E3-44C9-BD7B-86430BD610D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1218,8 +1212,6 @@ Global
 		{1EE495BD-196A-4531-BB20-90EEE81215E3} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
 		{AABF324C-51F3-4492-B16B-E1F78D8FA573} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
 		{16C4B490-5D03-4988-950B-BCB955AA3013} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
-		{5ED5C7C8-ED17-460C-89F1-0CF4F6A30255} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
-		{26CA0AC8-587F-49AC-8F1B-32AEA819107D} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
 		{7A2E4EB0-6CBB-4026-B8E0-3C5EEE57AFCC} = {86C59C6A-20B6-452C-96FF-5659F45C0843}
 		{AE8523B8-8318-44AB-9BA4-03E8FB197660} = {86C59C6A-20B6-452C-96FF-5659F45C0843}
 		{DC03B82E-6D7A-443A-8373-D2B4263D683C} = {86C59C6A-20B6-452C-96FF-5659F45C0843}
@@ -1374,6 +1366,7 @@ Global
 		{A935C30F-9231-4D7F-8132-A63AE5B3D068} = {0CE0EC67-BD90-42CA-94EB-D5F77528D825}
 		{27B494C1-CD55-4D98-B0A5-A820CB51B80C} = {0CE0EC67-BD90-42CA-94EB-D5F77528D825}
 		{61CBD047-0651-42A2-80A5-2AF63BFC7AE2} = {0CE0EC67-BD90-42CA-94EB-D5F77528D825}
+		{3EA838F9-17E3-44C9-BD7B-86430BD610D1} = {C293C6AD-50C4-4F09-9431-3EC7E18C1981}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
