@@ -9,7 +9,11 @@ namespace _003_StringBuilder
         {
             var builder = new StringBuilder();
 
-            builder.Append("StringBuilder ").Append("is ").Append("very ").Append("fast ... ");
+            builder
+                .Append("StringBuilder ")
+                .Append("is ")
+                .Append("very ")
+                .Append("fast ... ");
 
             string build1 = builder.ToString();
 
@@ -22,6 +26,16 @@ namespace _003_StringBuilder
 
             // Delay.
             Console.ReadKey();
+        }
+
+        public static void Test(Customer c)
+        {
+            c.Test = 10;
+        }
+
+        public class Customer
+        {
+            public int Test { get; set; }
         }
     }
 }

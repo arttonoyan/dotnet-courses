@@ -9,7 +9,7 @@ namespace _005_Strings
             string s1 = "SomeText";
             string s2 = "SomeText";
             string s3 = s2;
-            s2 = "NewText";
+            //s2 = "NewText";
 
             if (s1.Equals(s2))
             {
@@ -23,6 +23,11 @@ namespace _005_Strings
 
             var someText = Console.ReadLine();
             if (s1.Equals(someText))
+            {
+
+            }
+
+            if (ReferenceEquals(s1, someText))
             {
 
             }
