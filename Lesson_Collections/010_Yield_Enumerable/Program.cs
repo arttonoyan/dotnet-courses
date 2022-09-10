@@ -28,8 +28,8 @@ namespace _010_Yield_Enumerable
         {
             if (_last == null)
             {
-                next = new ListNode<T> { value = item };
-                _last = next;
+                value = item;
+                _last = this;
             }
             else
             {
