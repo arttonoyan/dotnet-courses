@@ -10,14 +10,20 @@ namespace _011_Yield_DataRepository
 {
     public static class DataRepositoryExtensions
     {
-        public static IEnumerable<TModel> GetExecuter<TModel>(this IDataRepository repository, string query, Func<IDataRecord, TModel> mapper)
-            where TModel : class, new()
-            => repository.GetExecuter(query).Select(mapper);
+        public static IEnumerable<Student> GetStudents(this IDataRepository repository)
+            => repository
+                .GetEnumerable("select * from Student")
+                .Select(DataMapper.ToStudent);
+
+        public static IEnumerable<Student> GetStudents(this IDataRepository repository, string filter)
+            => repository
+                .GetEnumerable($"select * from Student {filter}")
+                .Select(DataMapper.ToStudent);
 
         public static IAsyncEnumerable<TModel> GetAsyncExecuter<TModel>(this IDataRepository repository, string query, Func<IDataRecord, TModel> mapper, CancellationToken cancellationToken = default)
             where TModel : class, new()
             => repository
-                .GetAsyncExecuter(query)
+                .GetAsyncEnumerable(query)
                 .SelectAsync(mapper, cancellationToken);
 
         public static async IAsyncEnumerable<TResult> SelectAsync<TSource, TResult>(this IAsyncEnumerable<TSource> source, Func<TSource, TResult> selector, [EnumeratorCancellation] CancellationToken cancellationToken = default)

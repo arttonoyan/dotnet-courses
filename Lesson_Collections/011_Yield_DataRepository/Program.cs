@@ -1,30 +1,34 @@
 ﻿using System;
 using System.Data;
 using System.Linq;
-using System.Threading;
+using System.Threading.Tasks;
 
 namespace _011_Yield_DataRepository
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             IDataRepository repo = new DataRepository(Settings.ConnectionString);
-            var mapper = GetStudentMapper();
-            var res = repo
-                .GetExecuter("select * from Student", mapper)
-                .GroupBy(p => p.Age)
-                .ToDictionary(p => p.Key, p => p.ToList());
-        }
 
-        static Func<IDataRecord, Student> GetStudentMapper() =>
-            reader => new Student
+            var students = repo.GetStudents().ToList();
+
+            await foreach (var item in repo.GetAsyncEnumerable("select * from Student"))
             {
-                Id = (int)reader["Id"],
-                Name = (string)reader["Name"],
-                Surname = (string)reader["Surname"],
-                Age = (int)reader["Age"]
-            };
+
+            }
+
+            var en = repo
+                .GetAsyncEnumerable("select * from Student")
+                .GetAsyncEnumerator();
+
+            while (await en.MoveNextAsync())
+            {
+                var item = en.Current;
+            }
+
+            Console.ReadLine();
+        }
     }
 
     public static class Settings

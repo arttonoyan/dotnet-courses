@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace _011_Yield_DataRepository
 {
     public interface IDataRepository
     {
-        IEnumerable<IDataRecord> GetExecuter(string query);
-        IAsyncEnumerable<IDataRecord> GetAsyncExecuter(string query, CancellationToken cancellationToken = default);
+        IEnumerable<IDataRecord> GetEnumerable(string query);
+        IAsyncEnumerable<IDataRecord> GetAsyncEnumerable(string query, CancellationToken cancellationToken = default);
     }
 
     class DataRepository : IDataRepository
@@ -24,7 +21,7 @@ namespace _011_Yield_DataRepository
 
         private readonly string _connectionString;
 
-        public IEnumerable<IDataRecord> GetExecuter(string query)
+        public IEnumerable<IDataRecord> GetEnumerable(string query)
         {
             using var conn = new SqlConnection(_connectionString);
             if (conn.State != ConnectionState.Open)
@@ -39,7 +36,7 @@ namespace _011_Yield_DataRepository
                 yield return reader;
         }
 
-        public async IAsyncEnumerable<IDataRecord> GetAsyncExecuter(string query, [EnumeratorCancellation] CancellationToken cancellationToken = default)
+        public async IAsyncEnumerable<IDataRecord> GetAsyncEnumerable(string query, [EnumeratorCancellation] CancellationToken cancellationToken = default)
         {
             using var conn = new SqlConnection(_connectionString);
             if (conn.State != ConnectionState.Open)
