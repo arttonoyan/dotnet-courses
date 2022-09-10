@@ -44,6 +44,16 @@ namespace _002_Events
         private int count;
         private EventDelegate myEvent;
 
+        //public void add_MyEvent(EventDelegate value)
+        //{
+        //    //myEvent += value;
+        //    if (count < 2)
+        //    {
+        //        myEvent += value;
+        //        count++;
+        //    }
+        //}
+
         // The implementation of the add and remove accessors for the event.
         public event EventDelegate MyEvent
         {
