@@ -12,9 +12,11 @@ namespace _001_Delegates
             var myAction1 = new MyAction(myClass.Method2);
 
             myAction1.Invoke();
-            //myAction.Invoke();
-
             myAction();
+
+            var my2 = new MyClass { Id = -10 };
+            myAction.Method.Invoke(myAction.Target, null);
+
 
             Console.ReadLine();
         }
