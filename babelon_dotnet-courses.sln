@@ -419,7 +419,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_ValueTasks.Benchmark", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012_struct_StackOverflow", "Lesson_Structure\012_struct_StackOverflow\012_struct_StackOverflow.csproj", "{3EA838F9-17E3-44C9-BD7B-86430BD610D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_StringBuilder_Benchmark", "Lesson_Strings\006_StringBuilder_Benchmark\006_StringBuilder_Benchmark.csproj", "{ED7F15E7-656E-4F4B-ACB2-FEA3E46498A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_StringBuilder_Benchmark", "Lesson_Strings\006_StringBuilder_Benchmark\006_StringBuilder_Benchmark.csproj", "{ED7F15E7-656E-4F4B-ACB2-FEA3E46498A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
