@@ -8,38 +8,34 @@ namespace _001_Events
         {
             var instance = new MyClass();
 
-            instance.myEvent += new EventDelegate(Handler1);
+            instance.myEvent += new Action(Handler1);
             instance.myEvent += Handler2;
 
             instance.InvokeEvent();
 
             Console.WriteLine(new string('-', 20));
 
-            instance.myEvent -= new EventDelegate(Handler2);
+            instance.myEvent -= new Action(Handler2);
 
             //instance.InvokeEvent();
 
             Console.ReadKey();
         }
 
-        static private void Handler1()
+        private static void Handler1()
         {
-            //Обработчик события
             Console.WriteLine("Event Handler 1");
         }
 
-        static private void Handler2()
+        private static void Handler2()
         {
-            //Обработчик события
             Console.WriteLine("Event Handler 2");
         }
     }
 
-    public delegate void EventDelegate();
-
     public class MyClass
     {
-        public event EventDelegate myEvent = null;
+        public event Action myEvent = null;
 
         public void InvokeEvent()
         {
