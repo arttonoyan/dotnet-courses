@@ -12,7 +12,7 @@ namespace _005_Enumerable
             //rootNode.Add(30);
             //rootNode.Add(40);
 
-            ListNode rootNode = new ListNode { 10, 20, 30, 40 };
+            var rootNode = new ListNode { 10, 20, 30, 40 };
 
             foreach (var item in rootNode)
             {
