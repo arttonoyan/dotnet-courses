@@ -8,6 +8,7 @@
         public int Age { get; set; }
         public string Email { get; set; }
 
+        [Ignore]
         public string Fullname => $"{Name} {Surname}";
     }
 }
