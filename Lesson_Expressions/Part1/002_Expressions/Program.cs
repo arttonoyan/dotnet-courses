@@ -8,7 +8,7 @@ namespace _002_Expressions
         static void Main(string[] args)
         {
             Expression<Func<Student, bool>> isTeenAgerExpr = s => s.Age > 12 && s.Age < 20;
-            //((isTeenAgerExpr as LambdaExpression).Body as BinaryExpression)
+            //var exc = ((isTeenAgerExpr as LambdaExpression).Body as BinaryExpression);
 
             Func<Student, bool> isTeenAger = isTeenAgerExpr.Compile();
             var st = new Student { Name = "A1", Surname = "A1yan", Age = 18 };

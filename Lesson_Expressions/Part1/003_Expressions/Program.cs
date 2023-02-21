@@ -14,7 +14,6 @@ namespace _003_Expressions
             printStudentName.Invoke(st);
 
             Console.ReadLine();
-
         }
     }
 }

@@ -13,7 +13,7 @@ namespace _010_Expressions
 
         private static Expression<T> Compose<T>(Expression<T> left, Expression<T> right, Func<Expression, Expression, Expression> merge)
         {
-            var mergeExp = merge(left.Body, right.Body);
+			var mergeExp = merge(left.Body, right.Body);
             var body = new ParameterReplacer(left.Parameters).Visit(mergeExp);
 
             // apply composition of lambda expression bodies to parameters from the first expression.
