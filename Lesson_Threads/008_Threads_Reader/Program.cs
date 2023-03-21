@@ -30,11 +30,11 @@ namespace _008_Threads_Reader
             {
                 int number = 10;
 
-                if (dic.ContainsKey(number))
-                    Console.WriteLine(dic[number]);
+                //if (dic.ContainsKey(number))
+                //    Console.WriteLine(dic[number]);
 
-                //if(dic.TryGetValue(number, out int value))
-                //    Console.WriteLine(value);
+                if (dic.TryGetValue(number, out int value))
+                    Console.WriteLine(value);
             }
         }
 
@@ -43,7 +43,8 @@ namespace _008_Threads_Reader
             while (true)
             {
                 int number = 10;
-                dic[number] = number;
+                if (!dic.ContainsKey(number))
+                    dic.Add(number, number);
             }
         }
 
