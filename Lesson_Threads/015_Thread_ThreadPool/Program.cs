@@ -39,6 +39,7 @@ namespace _015_Thread_ThreadPool
             ThreadPool.GetAvailableThreads(out int availableWorkThreads, out int completionPortThreads);
             ThreadPool.GetMaxThreads(out int maxWorkThreads, out int maxCompletionPortThreads);
             Console.WriteLine("-------------Available Work Threads: {0} from {1}", availableWorkThreads, maxWorkThreads);
+            Console.WriteLine("-------------Completion Port Threads:{0} from {1}\n", completionPortThreads, maxCompletionPortThreads);
         }
 
     }
