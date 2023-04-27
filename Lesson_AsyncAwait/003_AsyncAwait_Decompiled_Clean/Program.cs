@@ -45,7 +45,7 @@ namespace _003_AsyncAwait_Decompiled_Clean
 
             void IAsyncStateMachine.MoveNext()
             {
-                Task task = new Task(new Action(outer.Operation));
+                Task task = new Task(outer.Operation);
                 task.Start();
             }
 
