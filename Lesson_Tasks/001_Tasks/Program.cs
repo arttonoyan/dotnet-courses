@@ -19,7 +19,6 @@ namespace _001_Tasks
             Console.WriteLine("Hello from thread '{0}'.", Thread.CurrentThread.Name);
 
             Console.ReadLine();
-
         }
     }
 }
