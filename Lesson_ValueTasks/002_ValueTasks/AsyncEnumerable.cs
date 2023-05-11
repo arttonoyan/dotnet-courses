@@ -26,7 +26,7 @@ namespace System.Linq
         /// <summary>
         /// Returns the first element of an async-enumerable sequence, or a default value if no such element exists.
         /// </summary>
-        public static async ValueTask<TSource?> FirstOrDefaultAsync_ValueTask<TSource>(this IAsyncEnumerable<TSource> source, CancellationToken cancellationToken = default)
+        public static async ValueTask<TSource> FirstOrDefaultAsync_ValueTask<TSource>(this IAsyncEnumerable<TSource> source, CancellationToken cancellationToken = default)
         {
             if (source == null)
                 throw new ArgumentNullException(nameof(source));
