@@ -28,7 +28,7 @@ namespace _002_ValueTasks
 
         private ValueTask<int> RunValueTask(int value)
         {
-            return new ValueTask<int>(value);
+            return ValueTask.FromResult(value);
         }
     }
 }

@@ -29,7 +29,7 @@ namespace _002_ValueTasks
         /// <summary>
         /// Returns the first element of an async-enumerable sequence, or a default value if no such element exists.
         /// </summary>
-        public static async Task<TSource?> FirstOrDefaultAsync_Task<TSource>(this IAsyncEnumerable<TSource> source, CancellationToken cancellationToken = default)
+        public static async Task<TSource> FirstOrDefaultAsync_Task<TSource>(this IAsyncEnumerable<TSource> source, CancellationToken cancellationToken = default)
         {
             if (source == null)
                 throw new ArgumentNullException(nameof(source));

@@ -7,9 +7,10 @@ namespace _001_ValueTasks
     {
         static async Task Main(string[] args)
         {
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 10; i++)
             {
-                await RunValueTasks();
+                int value = await RunValueTasks();
+                Console.WriteLine(value);
             }
 
             Console.WriteLine("Finish");
@@ -24,7 +25,7 @@ namespace _001_ValueTasks
 
         private static ValueTask<int> RunValueTasks()
         {
-            return new ValueTask<int>(10);
+            return ValueTask.FromResult(10);
         }
     }
 }

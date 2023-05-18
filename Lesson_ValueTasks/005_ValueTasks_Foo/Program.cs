@@ -10,12 +10,13 @@ namespace _005_ValueTasks_Foo
         {
             // Task<TResult> Task.Run<TResult>(Func<TResult> action) where TResult is ValueTask
             ValueTask<int> value = await Task.Run(() => ReturnValueTask());
-
+            
             // So, we need to await the ValueTask<int>
             var valueTaskResult = await value;
 
             Console.ReadLine();
         }
+
         #region Tasks
 
         static async Task<int> AwaitTask()

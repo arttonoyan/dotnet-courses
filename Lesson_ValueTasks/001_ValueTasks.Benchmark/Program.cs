@@ -44,7 +44,7 @@ namespace _001_ValueTasks.Benchmark
 
         private ValueTask<int> RunValueTask()
         {
-            return new ValueTask<int>(10);
+            return ValueTask.FromResult(10);
         }
     }
 }
