@@ -455,6 +455,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{048B9771
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Queue", "Lesson_DataStructures\Queue\001_Queue\001_Queue.csproj", "{53F2FA17-E28C-4528-8321-A1E71B4CF375}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Queue", "Lesson_DataStructures\Queue\002_Queue\002_Queue.csproj", "{A7D83748-923F-4F2E-9D0C-C9E67E479AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1261,6 +1263,10 @@ Global
 		{53F2FA17-E28C-4528-8321-A1E71B4CF375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F2FA17-E28C-4528-8321-A1E71B4CF375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F2FA17-E28C-4528-8321-A1E71B4CF375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D83748-923F-4F2E-9D0C-C9E67E479AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D83748-923F-4F2E-9D0C-C9E67E479AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D83748-923F-4F2E-9D0C-C9E67E479AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D83748-923F-4F2E-9D0C-C9E67E479AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1472,6 +1478,7 @@ Global
 		{80BC3BC8-D87D-49BF-B420-42703160F180} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
 		{048B9771-770F-49EE-9945-C49467A8BCBA} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
 		{53F2FA17-E28C-4528-8321-A1E71B4CF375} = {80BC3BC8-D87D-49BF-B420-42703160F180}
+		{A7D83748-923F-4F2E-9D0C-C9E67E479AFF} = {80BC3BC8-D87D-49BF-B420-42703160F180}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
