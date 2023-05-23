@@ -465,6 +465,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Stack", "Lesson_DataStr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Stack", "Lesson_DataStructures\Stack\003_Stack\003_Stack.csproj", "{04065D5D-0622-4FF7-8EF8-DDC513AD5541}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_Stack_TraverseTree", "Lesson_DataStructures\Stack\004_Stack_TraverseTree\004_Stack_TraverseTree.csproj", "{861C851C-09BD-4ED5-BF6D-542B7CFFD253}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1291,6 +1293,10 @@ Global
 		{04065D5D-0622-4FF7-8EF8-DDC513AD5541}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04065D5D-0622-4FF7-8EF8-DDC513AD5541}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04065D5D-0622-4FF7-8EF8-DDC513AD5541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861C851C-09BD-4ED5-BF6D-542B7CFFD253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861C851C-09BD-4ED5-BF6D-542B7CFFD253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861C851C-09BD-4ED5-BF6D-542B7CFFD253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861C851C-09BD-4ED5-BF6D-542B7CFFD253}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1507,6 +1513,7 @@ Global
 		{9301D8E1-FD48-424A-B7EB-F97F4001215F} = {048B9771-770F-49EE-9945-C49467A8BCBA}
 		{79D10BDA-B27F-4A1E-9C6C-5D527F73BCEE} = {048B9771-770F-49EE-9945-C49467A8BCBA}
 		{04065D5D-0622-4FF7-8EF8-DDC513AD5541} = {048B9771-770F-49EE-9945-C49467A8BCBA}
+		{861C851C-09BD-4ED5-BF6D-542B7CFFD253} = {048B9771-770F-49EE-9945-C49467A8BCBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
