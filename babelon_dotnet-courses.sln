@@ -429,17 +429,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_DataStructures", "Le
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "List", "List", "{4454540A-E26C-48E4-BBAD-1C22DA458690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_List", "Lesson_DataStructures\List\001_List\001_List.csproj", "{F0AC7D27-BE4D-474F-A728-37171D352F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_List", "Lesson_DataStructures\List\001_List\001_List.csproj", "{F0AC7D27-BE4D-474F-A728-37171D352F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_List", "Lesson_DataStructures\List\002_List\002_List.csproj", "{9BF34185-FCEA-4670-8005-4DCE3C298FCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_List", "Lesson_DataStructures\List\002_List\002_List.csproj", "{9BF34185-FCEA-4670-8005-4DCE3C298FCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_List", "Lesson_DataStructures\List\003_List\003_List.csproj", "{B67278F7-7AF8-46A1-9ED3-CC98A451A0D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_List", "Lesson_DataStructures\List\003_List\003_List.csproj", "{B67278F7-7AF8-46A1-9ED3-CC98A451A0D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_List_Insert", "Lesson_DataStructures\List\004_List_Insert\004_List_Insert.csproj", "{6D4B81FA-B44B-4697-A8F6-B5037DCC73D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_List_Insert", "Lesson_DataStructures\List\004_List_Insert\004_List_Insert.csproj", "{6D4B81FA-B44B-4697-A8F6-B5037DCC73D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_ArrayList_Remove", "Lesson_DataStructures\List\005_ArrayList_Remove\005_ArrayList_Remove.csproj", "{D7807D23-2B5C-43EA-87D7-265AA9C84ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_ArrayList_Remove", "Lesson_DataStructures\List\005_ArrayList_Remove\005_ArrayList_Remove.csproj", "{D7807D23-2B5C-43EA-87D7-265AA9C84ECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_ArrayList_Enumerator", "Lesson_DataStructures\List\006_ArrayList_Enumerator\006_ArrayList_Enumerator.csproj", "{1A448047-0DF6-4326-8198-4DF8E22347EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_ArrayList_Enumerator", "Lesson_DataStructures\List\006_ArrayList_Enumerator\006_ArrayList_Enumerator.csproj", "{1A448047-0DF6-4326-8198-4DF8E22347EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{6BB8FFB1-2945-4E45-857F-3D59996C6F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_LinkedList", "Lesson_DataStructures\LinkedList\001_LinkedList\001_LinkedList.csproj", "{275F260B-DD8A-4CE9-9806-9A49A7586FCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1231,6 +1235,10 @@ Global
 		{1A448047-0DF6-4326-8198-4DF8E22347EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A448047-0DF6-4326-8198-4DF8E22347EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A448047-0DF6-4326-8198-4DF8E22347EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275F260B-DD8A-4CE9-9806-9A49A7586FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275F260B-DD8A-4CE9-9806-9A49A7586FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275F260B-DD8A-4CE9-9806-9A49A7586FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275F260B-DD8A-4CE9-9806-9A49A7586FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1435,6 +1443,8 @@ Global
 		{6D4B81FA-B44B-4697-A8F6-B5037DCC73D3} = {4454540A-E26C-48E4-BBAD-1C22DA458690}
 		{D7807D23-2B5C-43EA-87D7-265AA9C84ECE} = {4454540A-E26C-48E4-BBAD-1C22DA458690}
 		{1A448047-0DF6-4326-8198-4DF8E22347EC} = {4454540A-E26C-48E4-BBAD-1C22DA458690}
+		{6BB8FFB1-2945-4E45-857F-3D59996C6F2B} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
+		{275F260B-DD8A-4CE9-9806-9A49A7586FCB} = {6BB8FFB1-2945-4E45-857F-3D59996C6F2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
