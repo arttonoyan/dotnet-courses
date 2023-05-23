@@ -447,6 +447,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_LinkedList", "Lesson_Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_LinkedList", "Lesson_DataStructures\LinkedList\002_LinkedList\002_LinkedList.csproj", "{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_LinkedList_Benchmark", "Lesson_DataStructures\LinkedList\003_LinkedList_Benchmark\003_LinkedList_Benchmark.csproj", "{7BE6C438-DDC3-4EB9-B8B8-FDBCF3EEF4FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1245,6 +1247,10 @@ Global
 		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE6C438-DDC3-4EB9-B8B8-FDBCF3EEF4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE6C438-DDC3-4EB9-B8B8-FDBCF3EEF4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE6C438-DDC3-4EB9-B8B8-FDBCF3EEF4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE6C438-DDC3-4EB9-B8B8-FDBCF3EEF4FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1452,6 +1458,7 @@ Global
 		{6BB8FFB1-2945-4E45-857F-3D59996C6F2B} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
 		{275F260B-DD8A-4CE9-9806-9A49A7586FCB} = {6BB8FFB1-2945-4E45-857F-3D59996C6F2B}
 		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46} = {6BB8FFB1-2945-4E45-857F-3D59996C6F2B}
+		{7BE6C438-DDC3-4EB9-B8B8-FDBCF3EEF4FC} = {6BB8FFB1-2945-4E45-857F-3D59996C6F2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
