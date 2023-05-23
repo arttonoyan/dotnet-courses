@@ -445,6 +445,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_LinkedList", "Lesson_DataStructures\LinkedList\001_LinkedList\001_LinkedList.csproj", "{275F260B-DD8A-4CE9-9806-9A49A7586FCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_LinkedList", "Lesson_DataStructures\LinkedList\002_LinkedList\002_LinkedList.csproj", "{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1239,6 +1241,10 @@ Global
 		{275F260B-DD8A-4CE9-9806-9A49A7586FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{275F260B-DD8A-4CE9-9806-9A49A7586FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{275F260B-DD8A-4CE9-9806-9A49A7586FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1445,6 +1451,7 @@ Global
 		{1A448047-0DF6-4326-8198-4DF8E22347EC} = {4454540A-E26C-48E4-BBAD-1C22DA458690}
 		{6BB8FFB1-2945-4E45-857F-3D59996C6F2B} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
 		{275F260B-DD8A-4CE9-9806-9A49A7586FCB} = {6BB8FFB1-2945-4E45-857F-3D59996C6F2B}
+		{64D9CD56-9533-4FC4-A41C-BAB0562B9B46} = {6BB8FFB1-2945-4E45-857F-3D59996C6F2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
