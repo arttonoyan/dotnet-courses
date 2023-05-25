@@ -45,6 +45,8 @@ internal class Program
         stack.Push(555);
         stack.TrimExcess();
 
+        stack.Clear();
+
         Console.ReadLine();
     }
 }
