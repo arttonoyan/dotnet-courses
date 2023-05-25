@@ -18,7 +18,7 @@ internal class Program
         Console.WriteLine(new string('-', 10));
 
         int value2 = stack.Pop();
-        Console.WriteLine("Dequeue");
+        Console.WriteLine("Pop");
         Console.WriteLine($"value: {value2}, count: {stack.Count}");
 
         stack.Push(30);

@@ -7,10 +7,10 @@ internal class Program
         var queue = new Queue<int>();
         queue.Enqueue(10);
         queue.Enqueue(20);
-
+        
         Console.WriteLine($"Queue Count: {queue.Count}");
         Console.WriteLine(new string('-', 10));
-
+        
         int value1 = queue.Peek();
         Console.WriteLine("Peek");
         Console.WriteLine($"value: {value1}, count: {queue.Count}");
