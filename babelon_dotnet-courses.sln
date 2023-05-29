@@ -475,6 +475,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_HashSet", "Lesson_DataS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_HashSet", "Lesson_DataStructures\HashSet\002_HashSet\002_HashSet.csproj", "{8F21ED31-55FD-49E1-A50C-3FF3D94C9BA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_HashSet", "Lesson_DataStructures\HashSet\003_HashSet\003_HashSet.csproj", "{1C91985F-CF09-48BE-8BE9-619DEA5C9EAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1313,6 +1315,10 @@ Global
 		{8F21ED31-55FD-49E1-A50C-3FF3D94C9BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F21ED31-55FD-49E1-A50C-3FF3D94C9BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F21ED31-55FD-49E1-A50C-3FF3D94C9BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C91985F-CF09-48BE-8BE9-619DEA5C9EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C91985F-CF09-48BE-8BE9-619DEA5C9EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C91985F-CF09-48BE-8BE9-619DEA5C9EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C91985F-CF09-48BE-8BE9-619DEA5C9EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1534,6 +1540,7 @@ Global
 		{35E10EBF-4124-464D-A89E-4E2B2F8E69AF} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
 		{C338BE79-E7AE-425B-914F-6B84E34847D5} = {3F0F62DA-2EED-41A8-AD2D-D9CC4F014EF4}
 		{8F21ED31-55FD-49E1-A50C-3FF3D94C9BA1} = {3F0F62DA-2EED-41A8-AD2D-D9CC4F014EF4}
+		{1C91985F-CF09-48BE-8BE9-619DEA5C9EAE} = {3F0F62DA-2EED-41A8-AD2D-D9CC4F014EF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
