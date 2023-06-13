@@ -493,6 +493,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Destructor_Job", "Lesso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Destructor_Exception", "Lesson_GC\Destructors\006_Destructor_Exception\006_Destructor_Exception.csproj", "{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Destructor_Inheritance", "Lesson_GC\Destructors\007_Destructor_Inheritance\007_Destructor_Inheritance.csproj", "{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1359,6 +1361,10 @@ Global
 		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1588,6 +1594,7 @@ Global
 		{71EE100E-7745-4F13-8BEC-8D5AC0D7115D} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 		{D49430F6-A427-4F07-817A-63893EDA79BA} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
+		{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
