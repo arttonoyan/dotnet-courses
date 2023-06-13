@@ -487,29 +487,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Destructor_CallAndPrint
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Destructor_Thread", "Lesson_GC\Destructors\003_Destructor_Thread\003_Destructor_Thread.csproj", "{7B3A5B01-C6D2-4B15-9231-51D262490C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_Destructor_LongRunningDestructor", "Lesson_GC\Destructors\004_Destructor_LongRunningDestructor\004_Destructor_LongRunningDestructor.csproj", "{71EE100E-7745-4F13-8BEC-8D5AC0D7115D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_Destructor_LongRunningDestructor", "Lesson_GC\Destructors\004_Destructor_LongRunningDestructor\004_Destructor_LongRunningDestructor.csproj", "{71EE100E-7745-4F13-8BEC-8D5AC0D7115D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Destructor_Job", "Lesson_GC\Destructors\005_Destructor_Job\005_Destructor_Job.csproj", "{D49430F6-A427-4F07-817A-63893EDA79BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_Destructor_Job", "Lesson_GC\Destructors\005_Destructor_Job\005_Destructor_Job.csproj", "{D49430F6-A427-4F07-817A-63893EDA79BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Destructor_Exception", "Lesson_GC\Destructors\006_Destructor_Exception\006_Destructor_Exception.csproj", "{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_Destructor_Exception", "Lesson_GC\Destructors\006_Destructor_Exception\006_Destructor_Exception.csproj", "{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Destructor_Inheritance", "Lesson_GC\Destructors\007_Destructor_Inheritance\007_Destructor_Inheritance.csproj", "{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_Destructor_Inheritance", "Lesson_GC\Destructors\007_Destructor_Inheritance\007_Destructor_Inheritance.csproj", "{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{25341BC2-F46C-4A5D-894F-45AD2660A2B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_GC_LargeObjectGen", "Lesson_GC\General\001_GC_LargeObjectGen\001_GC_LargeObjectGen.csproj", "{9B17EBB8-3353-4914-95D0-23FCAC414B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_GC_LargeObjectGen", "Lesson_GC\General\001_GC_LargeObjectGen\001_GC_LargeObjectGen.csproj", "{9B17EBB8-3353-4914-95D0-23FCAC414B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_GC_GenerationsTest", "Lesson_GC\General\002_GC_GenerationsTest\002_GC_GenerationsTest.csproj", "{21645D94-FF12-4FD2-ACEA-53241A07F37C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_GC_GenerationsTest", "Lesson_GC\General\002_GC_GenerationsTest\002_GC_GenerationsTest.csproj", "{21645D94-FF12-4FD2-ACEA-53241A07F37C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_GC_WaitFinalizers", "Lesson_GC\General\003_GC_WaitFinalizers\003_GC_WaitFinalizers.csproj", "{9B7680C6-0C3D-418D-A46A-D6B5B79707FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_GC_WaitFinalizers", "Lesson_GC\General\003_GC_WaitFinalizers\003_GC_WaitFinalizers.csproj", "{9B7680C6-0C3D-418D-A46A-D6B5B79707FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_GC_Exception", "Lesson_GC\General\004_GC_Exception\004_GC_Exception.csproj", "{B7B22DBD-D7D3-474B-B3EE-44FE3FB1AB66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_GC_Exception", "Lesson_GC\General\004_GC_Exception\004_GC_Exception.csproj", "{B7B22DBD-D7D3-474B-B3EE-44FE3FB1AB66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_GC_Resurrection", "Lesson_GC\General\005_GC_Resurrection\005_GC_Resurrection.csproj", "{B4289D12-AD98-418F-AA7B-8980402E2737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_GC_Resurrection", "Lesson_GC\General\005_GC_Resurrection\005_GC_Resurrection.csproj", "{B4289D12-AD98-418F-AA7B-8980402E2737}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Disposable", "Disposable", "{930F07BE-F807-4807-A295-E9B142300FA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Disposable", "Lesson_GC\Disposable\001_Disposable\001_Disposable.csproj", "{68A34585-34F6-41CC-A3E3-5C10E365B9E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Disposable", "Lesson_GC\Disposable\001_Disposable\001_Disposable.csproj", "{68A34585-34F6-41CC-A3E3-5C10E365B9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Disposable_TryFinally", "Lesson_GC\Disposable\002_Disposable_TryFinally\002_Disposable_TryFinally.csproj", "{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1405,6 +1407,10 @@ Global
 		{68A34585-34F6-41CC-A3E3-5C10E365B9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A34585-34F6-41CC-A3E3-5C10E365B9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A34585-34F6-41CC-A3E3-5C10E365B9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1643,6 +1649,7 @@ Global
 		{B4289D12-AD98-418F-AA7B-8980402E2737} = {25341BC2-F46C-4A5D-894F-45AD2660A2B8}
 		{930F07BE-F807-4807-A295-E9B142300FA4} = {9171ED91-6424-4482-9269-31C78D201093}
 		{68A34585-34F6-41CC-A3E3-5C10E365B9E5} = {930F07BE-F807-4807-A295-E9B142300FA4}
+		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4} = {930F07BE-F807-4807-A295-E9B142300FA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
