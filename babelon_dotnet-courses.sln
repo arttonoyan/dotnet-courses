@@ -491,6 +491,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_Destructor_LongRunningD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Destructor_Job", "Lesson_GC\Destructors\005_Destructor_Job\005_Destructor_Job.csproj", "{D49430F6-A427-4F07-817A-63893EDA79BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Destructor_Exception", "Lesson_GC\Destructors\006_Destructor_Exception\006_Destructor_Exception.csproj", "{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1353,6 +1355,10 @@ Global
 		{D49430F6-A427-4F07-817A-63893EDA79BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D49430F6-A427-4F07-817A-63893EDA79BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D49430F6-A427-4F07-817A-63893EDA79BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1581,6 +1587,7 @@ Global
 		{7B3A5B01-C6D2-4B15-9231-51D262490C5A} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 		{71EE100E-7745-4F13-8BEC-8D5AC0D7115D} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 		{D49430F6-A427-4F07-817A-63893EDA79BA} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
+		{EE33DAC6-98D6-41B0-8D51-CB3F1E062DFC} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
