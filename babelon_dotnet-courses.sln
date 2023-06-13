@@ -513,6 +513,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Disposable", "Lesson_GC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Disposable_TryFinally", "Lesson_GC\Disposable\002_Disposable_TryFinally\002_Disposable_TryFinally.csproj", "{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Dispsable_DisposePattern", "Lesson_GC\Disposable\003_Dispsable_DisposePattern\003_Dispsable_DisposePattern.csproj", "{145F7630-172A-4BD3-AB4A-EEEB63150651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1411,6 +1413,10 @@ Global
 		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145F7630-172A-4BD3-AB4A-EEEB63150651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145F7630-172A-4BD3-AB4A-EEEB63150651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145F7630-172A-4BD3-AB4A-EEEB63150651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145F7630-172A-4BD3-AB4A-EEEB63150651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1650,6 +1656,7 @@ Global
 		{930F07BE-F807-4807-A295-E9B142300FA4} = {9171ED91-6424-4482-9269-31C78D201093}
 		{68A34585-34F6-41CC-A3E3-5C10E365B9E5} = {930F07BE-F807-4807-A295-E9B142300FA4}
 		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4} = {930F07BE-F807-4807-A295-E9B142300FA4}
+		{145F7630-172A-4BD3-AB4A-EEEB63150651} = {930F07BE-F807-4807-A295-E9B142300FA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
