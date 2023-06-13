@@ -47,7 +47,7 @@ public class Example
         {
             Console.WriteLine("I died...");
             Program.StaticExample = this;
-            //GC.ReRegisterForFinalize(this);
+            GC.ReRegisterForFinalize(this);
         }
     }
 }
