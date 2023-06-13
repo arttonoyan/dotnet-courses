@@ -501,6 +501,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_GC_LargeObjectGen", "Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_GC_GenerationsTest", "Lesson_GC\General\002_GC_GenerationsTest\002_GC_GenerationsTest.csproj", "{21645D94-FF12-4FD2-ACEA-53241A07F37C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_GC_WaitFinalizers", "Lesson_GC\General\003_GC_WaitFinalizers\003_GC_WaitFinalizers.csproj", "{9B7680C6-0C3D-418D-A46A-D6B5B79707FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1379,6 +1381,10 @@ Global
 		{21645D94-FF12-4FD2-ACEA-53241A07F37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21645D94-FF12-4FD2-ACEA-53241A07F37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21645D94-FF12-4FD2-ACEA-53241A07F37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7680C6-0C3D-418D-A46A-D6B5B79707FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7680C6-0C3D-418D-A46A-D6B5B79707FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7680C6-0C3D-418D-A46A-D6B5B79707FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7680C6-0C3D-418D-A46A-D6B5B79707FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1612,6 +1618,7 @@ Global
 		{25341BC2-F46C-4A5D-894F-45AD2660A2B8} = {9171ED91-6424-4482-9269-31C78D201093}
 		{9B17EBB8-3353-4914-95D0-23FCAC414B25} = {25341BC2-F46C-4A5D-894F-45AD2660A2B8}
 		{21645D94-FF12-4FD2-ACEA-53241A07F37C} = {25341BC2-F46C-4A5D-894F-45AD2660A2B8}
+		{9B7680C6-0C3D-418D-A46A-D6B5B79707FA} = {25341BC2-F46C-4A5D-894F-45AD2660A2B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
