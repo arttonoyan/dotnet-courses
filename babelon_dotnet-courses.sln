@@ -499,6 +499,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{2534
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_GC_LargeObjectGen", "Lesson_GC\General\001_GC_LargeObjectGen\001_GC_LargeObjectGen.csproj", "{9B17EBB8-3353-4914-95D0-23FCAC414B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_GC_GenerationsTest", "Lesson_GC\General\002_GC_GenerationsTest\002_GC_GenerationsTest.csproj", "{21645D94-FF12-4FD2-ACEA-53241A07F37C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1373,6 +1375,10 @@ Global
 		{9B17EBB8-3353-4914-95D0-23FCAC414B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B17EBB8-3353-4914-95D0-23FCAC414B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B17EBB8-3353-4914-95D0-23FCAC414B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21645D94-FF12-4FD2-ACEA-53241A07F37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21645D94-FF12-4FD2-ACEA-53241A07F37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21645D94-FF12-4FD2-ACEA-53241A07F37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21645D94-FF12-4FD2-ACEA-53241A07F37C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1605,6 +1611,7 @@ Global
 		{9EFAD8AF-6FE4-4BC9-8481-8A6633DDDC0C} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 		{25341BC2-F46C-4A5D-894F-45AD2660A2B8} = {9171ED91-6424-4482-9269-31C78D201093}
 		{9B17EBB8-3353-4914-95D0-23FCAC414B25} = {25341BC2-F46C-4A5D-894F-45AD2660A2B8}
+		{21645D94-FF12-4FD2-ACEA-53241A07F37C} = {25341BC2-F46C-4A5D-894F-45AD2660A2B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
