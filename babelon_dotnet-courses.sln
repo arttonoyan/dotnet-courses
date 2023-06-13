@@ -483,6 +483,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Destructors", "Destructors"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Destructor_Overall", "Lesson_GC\Destructors\001_Destructor_Overall\001_Destructor_Overall.csproj", "{598739DD-D699-4190-9B45-E50A02F0029E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Destructor_CallAndPrint", "Lesson_GC\Destructors\002_Destructor_CallAndPrint\002_Destructor_CallAndPrint.csproj", "{6EED1531-A961-4FF5-9AB9-8241D1B2FAE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1329,6 +1331,10 @@ Global
 		{598739DD-D699-4190-9B45-E50A02F0029E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{598739DD-D699-4190-9B45-E50A02F0029E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{598739DD-D699-4190-9B45-E50A02F0029E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EED1531-A961-4FF5-9AB9-8241D1B2FAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EED1531-A961-4FF5-9AB9-8241D1B2FAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EED1531-A961-4FF5-9AB9-8241D1B2FAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EED1531-A961-4FF5-9AB9-8241D1B2FAE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1553,6 +1559,7 @@ Global
 		{1C91985F-CF09-48BE-8BE9-619DEA5C9EAE} = {3F0F62DA-2EED-41A8-AD2D-D9CC4F014EF4}
 		{09F8BB67-C926-497C-8670-A429DA80B2D6} = {9171ED91-6424-4482-9269-31C78D201093}
 		{598739DD-D699-4190-9B45-E50A02F0029E} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
+		{6EED1531-A961-4FF5-9AB9-8241D1B2FAE8} = {09F8BB67-C926-497C-8670-A429DA80B2D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
