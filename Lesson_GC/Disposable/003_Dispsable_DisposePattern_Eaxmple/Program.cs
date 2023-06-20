@@ -27,6 +27,11 @@ public class Example : IDisposable
         _number = number;
     }
 
+    ~Example()
+    {
+        Console.WriteLine($"Number {_number}. Thread Id is {Thread.CurrentThread.ManagedThreadId} I died...");
+        Dispose(false);
+    }
 
     private bool disposed = false;
     public void Dispose()
@@ -46,10 +51,5 @@ public class Example : IDisposable
 
             disposed = true;
         }
-    }
-    ~Example()
-    {
-        Console.WriteLine($"Number {_number}. Thread Id is {Thread.CurrentThread.ManagedThreadId} I died...");
-        Dispose(false);
     }
 }
