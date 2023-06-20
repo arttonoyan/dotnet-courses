@@ -511,11 +511,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Disposable", "Disposable", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Disposable", "Lesson_GC\Disposable\001_Disposable\001_Disposable.csproj", "{68A34585-34F6-41CC-A3E3-5C10E365B9E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Disposable_TryFinally", "Lesson_GC\Disposable\002_Disposable_TryFinally\002_Disposable_TryFinally.csproj", "{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Disposable_TryFinally", "Lesson_GC\Disposable\002_Disposable_TryFinally\002_Disposable_TryFinally.csproj", "{C216E8CD-AF0A-4294-AE95-F4D06D8526B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Dispsable_DisposePattern", "Lesson_GC\Disposable\003_Dispsable_DisposePattern\003_Dispsable_DisposePattern.csproj", "{145F7630-172A-4BD3-AB4A-EEEB63150651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Dispsable_DisposePattern", "Lesson_GC\Disposable\003_Dispsable_DisposePattern\003_Dispsable_DisposePattern.csproj", "{145F7630-172A-4BD3-AB4A-EEEB63150651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_AsyncDisposable", "Lesson_GC\Disposable\004_AsyncDisposable\004_AsyncDisposable.csproj", "{D76C79EA-725A-4C7E-AF47-64C57AEB01DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_AsyncDisposable", "Lesson_GC\Disposable\004_AsyncDisposable\004_AsyncDisposable.csproj", "{D76C79EA-725A-4C7E-AF47-64C57AEB01DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Dispsable_DisposePattern_Eaxmple", "Lesson_GC\Disposable\003_Dispsable_DisposePattern_Eaxmple\003_Dispsable_DisposePattern_Eaxmple.csproj", "{A54E0800-593C-4686-9C79-FB916B497FD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1423,6 +1425,10 @@ Global
 		{D76C79EA-725A-4C7E-AF47-64C57AEB01DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D76C79EA-725A-4C7E-AF47-64C57AEB01DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D76C79EA-725A-4C7E-AF47-64C57AEB01DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54E0800-593C-4686-9C79-FB916B497FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54E0800-593C-4686-9C79-FB916B497FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54E0800-593C-4686-9C79-FB916B497FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54E0800-593C-4686-9C79-FB916B497FD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1664,6 +1670,7 @@ Global
 		{C216E8CD-AF0A-4294-AE95-F4D06D8526B4} = {930F07BE-F807-4807-A295-E9B142300FA4}
 		{145F7630-172A-4BD3-AB4A-EEEB63150651} = {930F07BE-F807-4807-A295-E9B142300FA4}
 		{D76C79EA-725A-4C7E-AF47-64C57AEB01DC} = {930F07BE-F807-4807-A295-E9B142300FA4}
+		{A54E0800-593C-4686-9C79-FB916B497FD0} = {930F07BE-F807-4807-A295-E9B142300FA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
