@@ -517,7 +517,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Dispsable_DisposePatter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_AsyncDisposable", "Lesson_GC\Disposable\004_AsyncDisposable\004_AsyncDisposable.csproj", "{D76C79EA-725A-4C7E-AF47-64C57AEB01DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Dispsable_DisposePattern_Eaxmple", "Lesson_GC\Disposable\003_Dispsable_DisposePattern_Eaxmple\003_Dispsable_DisposePattern_Eaxmple.csproj", "{A54E0800-593C-4686-9C79-FB916B497FD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Dispsable_DisposePattern_Eaxmple", "Lesson_GC\Disposable\003_Dispsable_DisposePattern_Eaxmple\003_Dispsable_DisposePattern_Eaxmple.csproj", "{A54E0800-593C-4686-9C79-FB916B497FD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrent", "Concurrent", "{21ECE15E-9208-4816-80CE-9AE84502C787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", "{20DFC350-037D-459F-8A21-B3B913A49044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ConcurrentDictionary", "Lesson_DataStructures\Concurrent\Dictionary\001_ConcurrentDictionary\001_ConcurrentDictionary.csproj", "{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1429,6 +1435,10 @@ Global
 		{A54E0800-593C-4686-9C79-FB916B497FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A54E0800-593C-4686-9C79-FB916B497FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A54E0800-593C-4686-9C79-FB916B497FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1671,6 +1681,9 @@ Global
 		{145F7630-172A-4BD3-AB4A-EEEB63150651} = {930F07BE-F807-4807-A295-E9B142300FA4}
 		{D76C79EA-725A-4C7E-AF47-64C57AEB01DC} = {930F07BE-F807-4807-A295-E9B142300FA4}
 		{A54E0800-593C-4686-9C79-FB916B497FD0} = {930F07BE-F807-4807-A295-E9B142300FA4}
+		{21ECE15E-9208-4816-80CE-9AE84502C787} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
+		{20DFC350-037D-459F-8A21-B3B913A49044} = {21ECE15E-9208-4816-80CE-9AE84502C787}
+		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB} = {20DFC350-037D-459F-8A21-B3B913A49044}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
