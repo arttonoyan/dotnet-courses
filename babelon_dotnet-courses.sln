@@ -525,6 +525,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ConcurrentDictionary", "Lesson_DataStructures\Concurrent\Dictionary\001_ConcurrentDictionary\001_ConcurrentDictionary.csproj", "{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ConcurrentDictionary_SourceCode", "Lesson_DataStructures\Concurrent\Dictionary\002_ConcurrentDictionary_SourceCode\002_ConcurrentDictionary_SourceCode.csproj", "{50CC1D3F-C4D5-4863-AABB-B9CA86B1228B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1439,6 +1441,10 @@ Global
 		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CC1D3F-C4D5-4863-AABB-B9CA86B1228B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CC1D3F-C4D5-4863-AABB-B9CA86B1228B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CC1D3F-C4D5-4863-AABB-B9CA86B1228B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CC1D3F-C4D5-4863-AABB-B9CA86B1228B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1684,6 +1690,7 @@ Global
 		{21ECE15E-9208-4816-80CE-9AE84502C787} = {6C02DFC3-A558-445E-8EA6-48A3C7C83DB1}
 		{20DFC350-037D-459F-8A21-B3B913A49044} = {21ECE15E-9208-4816-80CE-9AE84502C787}
 		{A2BFFD5B-9117-4C68-B2E4-EECA1DBBD0DB} = {20DFC350-037D-459F-8A21-B3B913A49044}
+		{50CC1D3F-C4D5-4863-AABB-B9CA86B1228B} = {20DFC350-037D-459F-8A21-B3B913A49044}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53D62B6B-D8A3-4C67-A8CE-2B49817C2E6A}
