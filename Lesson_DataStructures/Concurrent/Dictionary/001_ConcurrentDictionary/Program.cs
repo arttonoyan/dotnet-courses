@@ -22,12 +22,12 @@ internal class Program
         // or updates a key/value pair in the ConcurrentDictionary if the key already exists and returns the new value
         string valueFourth = dict.AddOrUpdate(4, "Fourth", (key, oldValue) => "Fourth");
         string valueFifthBad = dict.AddOrUpdate(5, "Fifth BAD", (key, oldValue) => "Fourth");
-        string valueFifth = dict.AddOrUpdate(5, "Fifth BAD", (key, oldValue) => "Fourth");
+        string valueFifth = dict.AddOrUpdate(5, "Fifth BAD", (key, oldValue) => "Fifth");
         // AddOrUpdate second overload method
-        string value1 = dict.AddOrUpdate(6, key => 
+        string value1 = dict.AddOrUpdate(6, key =>
         {
             return $"Sixth {key}";
-        }, (key, oldValue) => 
+        }, (key, oldValue) =>
         {
             return "Sixth";
         });
@@ -43,7 +43,7 @@ internal class Program
         string value3 = dict.AddOrUpdate<long>(7, (key, arg) =>
         {
             return $"Seventh {key}";
-        }, (key, oldValue, e) =>
+        }, (key, oldValue, arg) =>
         {
             return "Seventh";
         }, factoryArgument: 10);
@@ -51,7 +51,7 @@ internal class Program
         string value4 = dict.AddOrUpdate<long>(7, (key, arg) =>
         {
             return $"Seventh {key}";
-        }, (key, oldValue, e) =>
+        }, (key, oldValue, arg) =>
         {
             return "Seventh";
         }, factoryArgument: 10);

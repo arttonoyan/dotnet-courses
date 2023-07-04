@@ -1935,7 +1935,7 @@ namespace _002_ConcurrentDictionary_SourceCode
         private static int DefaultConcurrencyLevel
         {
             //PlatformHelper.ProcessorCount
-            get { return 4; }
+            get { return 16; }
         }
 
         /// <summary>
